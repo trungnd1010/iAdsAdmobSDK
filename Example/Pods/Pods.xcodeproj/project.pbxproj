@@ -9,62 +9,57 @@
 /* Begin PBXAggregateTarget section */
 		35255B272EA6381B5AC266D2307D74B6 /* iTrackingSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 0EDD9E87049C33694A5E66CB8C24FDF1 /* Build configuration list for PBXAggregateTarget "iTrackingSDK" */;
+			buildConfigurationList = 8600F8DC6C574F6A276D030F9312B998 /* Build configuration list for PBXAggregateTarget "iTrackingSDK" */;
 			buildPhases = (
-				9DB24055F67C3945332DAD036A15A5C5 /* [CP] Copy XCFrameworks */,
+				48061DADCAD12449012915BB1767E8C3 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				7D4B3C866D62A70022E9BAC6A4FAE794 /* PBXTargetDependency */,
-				DE91B30FED69B8C0764F25A920C49667 /* PBXTargetDependency */,
+				2127906AB94F314EBD3208A1845B6975 /* PBXTargetDependency */,
+				9412C560E8A19CF8DE5E910A85E3F599 /* PBXTargetDependency */,
 			);
 			name = iTrackingSDK;
-			productName = iTrackingSDK;
 		};
 		458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 83668896452AE996941745D76D9987E2 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */;
+			buildConfigurationList = FB88905752F3058F216EB5C3461492E6 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */;
 			buildPhases = (
-				82E22C26BC178DA81BF9A42E3E7D9ACC /* [CP] Copy XCFrameworks */,
+				48B41DA59F18A6F060FB1D669316603B /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				42470970822DF248DC5DE2E3D58025C3 /* PBXTargetDependency */,
+				76DFCA1B3C5B2FB34CC73A0F88C3F92E /* PBXTargetDependency */,
 			);
 			name = GoogleUserMessagingPlatform;
-			productName = GoogleUserMessagingPlatform;
 		};
 		57CE8CD2A83F96AA46F0581B9E9EAA03 /* iReadFileConfigSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 91D14C761BE2DE145A3130DE643F06AA /* Build configuration list for PBXAggregateTarget "iReadFileConfigSDK" */;
+			buildConfigurationList = F915232B2C9B8FCF6F621B0C80C56F62 /* Build configuration list for PBXAggregateTarget "iReadFileConfigSDK" */;
 			buildPhases = (
-				021C89F99D15446CDDDA1C4FEEF4429B /* [CP] Copy XCFrameworks */,
+				AA564D42D626997238C95FE8A42B0B53 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
 			name = iReadFileConfigSDK;
-			productName = iReadFileConfigSDK;
 		};
 		79592F7F6AFCC433D5B7E15424D8D570 /* iComponentsSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = FDFA1BDE1366E9188DC8AACD48E02120 /* Build configuration list for PBXAggregateTarget "iComponentsSDK" */;
+			buildConfigurationList = C3FED722D2F4A693661B6E1FA9EECAD0 /* Build configuration list for PBXAggregateTarget "iComponentsSDK" */;
 			buildPhases = (
-				B31E333BBE9C40DA2B681F5E33A407F8 /* [CP] Copy XCFrameworks */,
+				F5013D511B6E3F28A1756F527F15CDAD /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
 			name = iComponentsSDK;
-			productName = iComponentsSDK;
 		};
 		F4CA3867DE33786E1D530A58822E1FE1 /* iAdsCoreSDK */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = 27FEEE6F40A7A4FDBC46EAD0C7B8B088 /* Build configuration list for PBXAggregateTarget "iAdsCoreSDK" */;
+			buildConfigurationList = BDFAD37B7E039CE6C53BEA65F41CA87F /* Build configuration list for PBXAggregateTarget "iAdsCoreSDK" */;
 			buildPhases = (
-				36BED3F028A3E97BD2F52EFCCD448FFB /* [CP] Copy XCFrameworks */,
+				C780BE8730BE0BCF8C7E8F4AB553D563 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
-				FFD9A47DCC6DADD755AA5CFFDAF1CB35 /* PBXTargetDependency */,
+				68C84CA1BE1B529D17BC8BB3132CB844 /* PBXTargetDependency */,
 			);
 			name = iAdsCoreSDK;
-			productName = iAdsCoreSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -72,30 +67,30 @@
 		001D02029C5FBDD74D63D16A9881770E /* Adjust.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C3815B38FD5B073B4BAA97D8621184C /* Adjust.m */; };
 		0370E9BD350EF13EEA0BAF3267EEA2C0 /* ADJEventSuccess.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD28CC8FC1CA83DC2ED916DFFC89517 /* ADJEventSuccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		047BAB7BD63E4A807CB96ACEC8449341 /* ADJSdkClickHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 96B81532943DF55E4B33E3A16A94345A /* ADJSdkClickHandler.m */; };
+		080A352BA0B363FCB781A1E0DDCCC224 /* iAdsAdmobSDK_OpenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63E41C7E625C2B992C513C8D1216250 /* iAdsAdmobSDK_OpenManager.swift */; };
 		088BF85DE76C7168457593625F83913A /* ADJLinkResolution.m in Sources */ = {isa = PBXBuildFile; fileRef = FF3FDFE834CE00281E6490AD7EE04B51 /* ADJLinkResolution.m */; };
 		08B0DE6BA66716208900CB5CD76FF883 /* ADJActivityKind.h in Headers */ = {isa = PBXBuildFile; fileRef = 51E94CB47103A938A49A82DFAD1D19D5 /* ADJActivityKind.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0B413FDEEC20004516688ADB1136BD49 /* Pods-iAdsAdmobSDK_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B5A1D08F7E0533BA3DE6EBC3EBC73C7 /* Pods-iAdsAdmobSDK_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0F5D155CEE199B7A22AA33356A873496 /* ADJThirdPartySharing.h in Headers */ = {isa = PBXBuildFile; fileRef = 6704D589FB044CB7FDAE58FABED57A39 /* ADJThirdPartySharing.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		10CE67D8D3714A641CBC08F8A7E5F5F5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6F2CE052162644E26190D9D9866AB83A /* PrivacyInfo.xcprivacy */; };
 		12F89F098F0419B8E9F12D86E53E51A7 /* ADJResponseData.h in Headers */ = {isa = PBXBuildFile; fileRef = E86F1787F29816362F64260EAA9B1822 /* ADJResponseData.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		165C9846EF50F472068F6D1FB9015501 /* ADJSessionParameters.m in Sources */ = {isa = PBXBuildFile; fileRef = CC1B82B0B3EDD8A94708D0653A65FF8C /* ADJSessionParameters.m */; };
+		1939F51E3F5402D1C999EC6555BDAB52 /* iAdsAdmobSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD418E0943FED77DC7D6F38A830AA9DF /* iAdsAdmobSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		19809E219DB68A421618B847A470FFBD /* ADJPackageParams.h in Headers */ = {isa = PBXBuildFile; fileRef = D1AF264AEFC8A9F96318660DC5BE160F /* ADJPackageParams.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1EC4F7EE37151012F9648279F106469F /* ADJPurchaseVerificationHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E183BF5D658564B02D8A025DB9DF949 /* ADJPurchaseVerificationHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		201C25B2B0FC3AC6831F9ED9CAAEAAC1 /* ADJEventFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 89B837214A09BD0EEC85BF845E354A93 /* ADJEventFailure.m */; };
-		2077C6F2BB2E8FD7C92DCD4E0C4B01B0 /* iAdsGamSDK_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B1B2597C506B631D2B42220B9A17472 /* iAdsGamSDK_Error.swift */; };
-		2147BC287D0AF9244E11F975A5EF575A /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 397C7A0E0FDA3C7D48D62697D091DD0D /* PrivacyInfo.xcprivacy */; };
-		22F4AE2A4F83B6E936CA5E552AC31A75 /* iAdsAdmobSDK_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F02707716FAD927AB0CAFEC7F2F72EE6 /* iAdsAdmobSDK_Error.swift */; };
+		2051E817C7E7711E929C898CCF392ED6 /* iAdsGamSDK_RewardedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6D55943889B9DDBEA41A9DE8C841C87 /* iAdsGamSDK_RewardedManager.swift */; };
 		2344F8E5292FF63EDD8F8C26B7C5358A /* ADJSessionParameters.h in Headers */ = {isa = PBXBuildFile; fileRef = 019BDA474B2346469A014A407D08DACD /* ADJSessionParameters.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2AA5578F2CD88609002B8E9C /* iAdsAdmobSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2AA5578E2CD88609002B8E9C /* iAdsAdmobSDKManager.swift */; };
 		2C9CB4E3566AB2E6F3EAD7D6D4E35FE5 /* ADJUserDefaults.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1458876C38CEB524F8B1FD9574DA46 /* ADJUserDefaults.m */; };
 		2F2C2194FCC6D5CB93C15D83E135FBB0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */; };
 		3043F6087E99A158CFCA16BEC4EA9ABA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
+		38A57014C645952D335EDBCD3CE248C9 /* iAdsAdmobSDK_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37519C6768EE9CC16D8E7427F336A851 /* iAdsAdmobSDK_Error.swift */; };
+		3B4D7254A907D03A12E380F21CA6318C /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 6F2CE052162644E26190D9D9866AB83A /* PrivacyInfo.xcprivacy */; };
 		3B5A35D0E46C7DB5F405C1436F59BFFC /* ADJLinkResolution.h in Headers */ = {isa = PBXBuildFile; fileRef = 763A5A7ABE1B5CA68DBED3EF10C51AC3 /* ADJLinkResolution.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3B9A9F044BA3FC8B101B6C1E08F02277 /* ADJUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = EB9C48AE378BC682A7385B8E27A7EC1E /* ADJUtil.m */; };
 		3BB359A3660798EE516B1DEC1B9FA42A /* ADJActivityState.m in Sources */ = {isa = PBXBuildFile; fileRef = A6BA5AF86F60537EBD711AD6BB1C470E /* ADJActivityState.m */; };
 		3BCE1DD9B1FF619AE7C9B35BDF4B71DE /* ADJRequestHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = A26F4E187494925D387AC816A26C7AC8 /* ADJRequestHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E501CF3CE8D0CD36CCCEFC98C36C4B4 /* iAdsGamSDK_OpenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADA8D0EFBF76508E78E565C9CB6C48A7 /* iAdsGamSDK_OpenManager.swift */; };
 		3E9816E5B028638104D3127DABB378A2 /* ADJThirdPartySharing.m in Sources */ = {isa = PBXBuildFile; fileRef = AD77424990E9366B2949A7719B42B939 /* ADJThirdPartySharing.m */; };
-		3FFF368FE1E0AB49BB71AF4CFAEC568C /* iAdsAdmobSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D43792270926051050ED9B285C2AC4C3 /* iAdsAdmobSDK-dummy.m */; };
 		40B520DC74EE623C2E47DE9D257D172C /* ADJUrlStrategy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FA505F978E1E9A3CB1944BB904E44FE /* ADJUrlStrategy.m */; };
 		4535852624E4FE11E25DC70E6241A75D /* Pods-iAdsAdmobSDK_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B72C95F390B20444CFF3E20BD3AF6116 /* Pods-iAdsAdmobSDK_Example-dummy.m */; };
 		46746DA08471336C175ED1E9B3C76ED1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
@@ -103,34 +98,34 @@
 		4811FCCEADDDAC6455ADFD2564B26DC3 /* ADJSubscription.h in Headers */ = {isa = PBXBuildFile; fileRef = 067D553AFFFCF7272799D628272C54AC /* ADJSubscription.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4818AFF57337DF36E3060F6BAAA3CC40 /* ADJBackoffStrategy.h in Headers */ = {isa = PBXBuildFile; fileRef = CDEC068C1CBC277A94F079A3C35492A5 /* ADJBackoffStrategy.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		492302073D2F7B0A0E249C8A7707FF5A /* NSData+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = A2DF3C4CD83BED5757F0EC190264753D /* NSData+ADJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4AFD3B839AB9C7C498FEBAE304A4E039 /* iAdsAdmobSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = A75B3ED4C8E07A214241AF9BF8B256FB /* iAdsAdmobSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4EA7D6035272E1322B7801B997C655D4 /* iAdsAdmobSDK_NativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 086F1E93316A5DC52297A18CFA23D8A6 /* iAdsAdmobSDK_NativeManager.swift */; };
 		4F41AC6634F35C8630C63A7B7EF6B0E0 /* ADJSessionSuccess.h in Headers */ = {isa = PBXBuildFile; fileRef = A98A94BEE3474B3D445A7F2B3B43A198 /* ADJSessionSuccess.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52879C650393D05D2E1BB8520380CBB0 /* ADJAdjustFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = D9F02DBB01E93CAF46FC3B1CCA97BE9D /* ADJAdjustFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		52D950F332612C98D097889A678D78CD /* ADJPackageBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD64F431FCBF5DACD55080BA1279D2F /* ADJPackageBuilder.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		55D2213F8112DD5D3EF6920A34DED9CB /* ADJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 02F77B34FE94BCB4F89BA6C5C505B07C /* ADJConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		56C42ED609F4699D44D069BD6F5DFBF0 /* iAdsAdmobSDK.h in Headers */ = {isa = PBXBuildFile; fileRef = 95337755D5F5D899C88EFF2BC80D5CB3 /* iAdsAdmobSDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		568DAA3706DE4FDBFD913E36745E9C58 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9A041C7A36A6F42E2A1A1F255A64E633 /* PrivacyInfo.xcprivacy */; };
 		594BA049646439B573C50AA18B2A1BD6 /* Adjust-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D9DE196777B22370F304399A59C963B /* Adjust-dummy.m */; };
 		5A2F53605AD893E238D59B3DB8239CFA /* ADJSessionFailure.m in Sources */ = {isa = PBXBuildFile; fileRef = 801D790F4B02B4DB6448FFB8A7B24656 /* ADJSessionFailure.m */; };
 		5DAC063C7C678860973A084CEBA9FADA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		5E871B7004076C05C928E4AB9BEE66DA /* ADJPackageHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DF7A825F8DEA8E9D409C17F841864396 /* ADJPackageHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		61D83DE3CCFD0C0131FF6674683137AC /* ADJTimerCycle.h in Headers */ = {isa = PBXBuildFile; fileRef = 74DA89D3C10EC954BD7516BD1DE954EA /* ADJTimerCycle.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62364CF4D757CED465929C718AE520AA /* iAdsAdmobSDK_InterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEF0BCB104029D12632867326A344C97 /* iAdsAdmobSDK_InterManager.swift */; };
 		630C3A43C7E5F9D990F5F7684360D938 /* ADJActivityPackage.m in Sources */ = {isa = PBXBuildFile; fileRef = CDA708389003D67DF2DFB2174672165E /* ADJActivityPackage.m */; };
 		6391AB20BEF94F6FDF6C400AB4E2B670 /* ADJPackageHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 57CC5E736203A95E283925FAE3A95462 /* ADJPackageHandler.m */; };
 		689B739C4D6E2991F23E077D774CA659 /* Adjust-Adjust in Resources */ = {isa = PBXBuildFile; fileRef = B6C339432292171DF9AF35D79D97FF46 /* Adjust-Adjust */; };
 		6938C26B4AC18C1CF5A3CF4D02AD4927 /* ADJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 15B3D428387D79218F298121F19276B5 /* ADJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AFA026FFD47B74186992A95B0E595AE /* iAdsAdmobSDK_InterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5018B8D84B6D9B7DD71ED61FDD42B835 /* iAdsAdmobSDK_InterManager.swift */; };
 		6B7FC9F7CBCE0E14DE050DA5E81C67B9 /* ADJActivityPackage.h in Headers */ = {isa = PBXBuildFile; fileRef = 7903DA75E765B2511A242F0D2A4295F7 /* ADJActivityPackage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6D6D553DE8038952E8CCA48EB022A697 /* iAdsAdmobSDK_OpenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EFF593CF750C1AC836F521CED5B2964 /* iAdsAdmobSDK_OpenManager.swift */; };
 		6DDF484AC2678B92DC4F40BA101AD482 /* Google-Mobile-Ads-SDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0A348597D17A798AA2091CE25802F19 /* Google-Mobile-Ads-SDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6E299C9D3FF1F4D5D041BA09A43422BF /* Pods-iAdsAdmobSDK_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A3507A9397C55855AC06E623C13FDF4E /* Pods-iAdsAdmobSDK_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70B441ABFFCAB865F25F67379FD0F880 /* iAdsAdmobSDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B7489724246DEFE0128F8C84F000C62 /* iAdsAdmobSDK-dummy.m */; };
 		7102EF356F3D08DC9324C188321DE88E /* Google-Mobile-Ads-SDK-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B18C8EBA2E0C07C9AF49E308E61FA47C /* Google-Mobile-Ads-SDK-dummy.m */; };
 		78DD317B954E5A67AD694DE9E7988769 /* ADJActivityKind.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA65A2753995B58ED13D5A1CB75E3DE /* ADJActivityKind.m */; };
 		7D70532FDDDA64E37004407DD8CC5A1A /* ADJEventFailure.h in Headers */ = {isa = PBXBuildFile; fileRef = 1D4A88ABE8FA33F3088C44173EE66929 /* ADJEventFailure.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7DA5D0579C876C909B36FCCD459908ED /* iAdsGamSDK_InterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C7EFA2431BFC2F45DB948FB75477F5 /* iAdsGamSDK_InterManager.swift */; };
-		7E184A2B15FF2793A4AC922788EA76B7 /* iAdsGamSDK_NativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6EC16AD194D5470B27D7EC22F73983D /* iAdsGamSDK_NativeManager.swift */; };
 		809347D2E3BEF336C7C3985DDCBF4C7C /* ADJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E185C213F44E4691EA593135579460E /* ADJConfig.m */; };
+		82AF739449799013EAE0F0B4697ACB67 /* iAdsAdmobSDK_RewardedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2A9CA721E2CC1FD3CBD6149A6DECD0E /* iAdsAdmobSDK_RewardedManager.swift */; };
 		82B8C421825555EB903361B11D6B3D70 /* ADJTimerCycle.m in Sources */ = {isa = PBXBuildFile; fileRef = FC400EDD76022C0CAED9F7A294709384 /* ADJTimerCycle.m */; };
 		8666604FAAF9DBA9955DFA7F48826A64 /* ADJActivityHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = F12BD62223BE1AB4C26EF594122ABA43 /* ADJActivityHandler.m */; };
-		89C9860D76BF0E87EE2D843F186AA9FC /* iAdsGamSDK_OpenManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221106123785CF2699F7C9C197C4D29F /* iAdsGamSDK_OpenManager.swift */; };
 		8ADC9108C5710FAFC5F4E8B32301B5C4 /* ADJPurchase.m in Sources */ = {isa = PBXBuildFile; fileRef = 112E649F4793D72F2406827378324608 /* ADJPurchase.m */; };
 		93687119F80D47C5434702E3BA757C21 /* ADJUserDefaults.h in Headers */ = {isa = PBXBuildFile; fileRef = 97DD0991E82DFF603925B019E4A07EDF /* ADJUserDefaults.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		959D7A061A68203CE5730738A86D57C5 /* ADJSKAdNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DA5192C363E1B3CDCEB0F80C63F2D0D /* ADJSKAdNetwork.m */; };
@@ -140,8 +135,7 @@
 		9C51CBCDC80696E36034CC73C61598DA /* ADJPurchaseVerificationResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E78BE8E49D630B4ADCA3D80B29C394F /* ADJPurchaseVerificationResult.m */; };
 		A492B14B79F354591F66E1B848D6CAE7 /* ADJSubscription.m in Sources */ = {isa = PBXBuildFile; fileRef = C0E0C8FA04F93B7734EDB123A1B5F6C0 /* ADJSubscription.m */; };
 		A66B2BA5F0B933BC603CBB4E9043DFB6 /* ADJEvent.h in Headers */ = {isa = PBXBuildFile; fileRef = 52F0633627564BA9E8631BF23C86B7D9 /* ADJEvent.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A7C456D658B6AA2CB309BA514B0AAA84 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
-		AF4BE012333A3F2E641C89A7BAE6DC62 /* iAdsAdmobSDK-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2ED9AC34A5C073C5EADE7231D8C3DCE7 /* iAdsAdmobSDK-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B472CF062DD7BE33E8DCB7C4D8B329EB /* iAdsGamSDK_NativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1351D928421B943096962DDE0EC97394 /* iAdsGamSDK_NativeManager.swift */; };
 		BAA0F4E9F669183F1AD6728A6CAA2EE0 /* ADJTimerOnce.h in Headers */ = {isa = PBXBuildFile; fileRef = 170A3D03A144A690C875F6F0D4BC38B7 /* ADJTimerOnce.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE6F8FEA6F7A3B52742EF22A4C407DAB /* ADJRequestHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F397FB0B7FAC2FF6B692C237343AE74 /* ADJRequestHandler.m */; };
 		C08953DD37AF39BB672598A114C790C6 /* NSString+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = EE3E72629F435FCDF96CF8A90C85F7B3 /* NSString+ADJAdditions.m */; };
@@ -155,27 +149,28 @@
 		CBA1A653605E789D2D2F44D7886DC168 /* ADJEventSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = F1AFD55DC15EA24A5FFA9AAF94982CD0 /* ADJEventSuccess.m */; };
 		CC68C402C47CC9892927D7137F9DBAAF /* ADJSessionSuccess.m in Sources */ = {isa = PBXBuildFile; fileRef = B6644B1294FF35B91F3223FD77A603C5 /* ADJSessionSuccess.m */; };
 		CDAE7483C6EA42CFDE03BE2E38DD6305 /* NSNumber+ADJAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BF2E07E5A37D3584B41A5BAF2F3AB16 /* NSNumber+ADJAdditions.m */; };
-		CE0ADBA990E79EA2288070AF5BF641DD /* iAdsGamSDK_RewardedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689E4AC5DB5E5CB22150BDAD94B4290B /* iAdsGamSDK_RewardedManager.swift */; };
 		CE3A32564BDF61F7E60E2D8907F7870C /* ADJUtil.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D717EA6AE8B62B28B8E815D87DC9B28 /* ADJUtil.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF6C51A614FE4442F8F0697024369602 /* ADJResponseData.m in Sources */ = {isa = PBXBuildFile; fileRef = 22371575CE478927C8B65EDC6F307B21 /* ADJResponseData.m */; };
 		D008FB254D82BCF1ABAB17C5D3AED288 /* ADJAdRevenue.h in Headers */ = {isa = PBXBuildFile; fileRef = 28E5838C082F97F2796C7A7F6103025E /* ADJAdRevenue.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0337ED2A0975A9A901CD959AD0A7C39 /* ADJAttribution.m in Sources */ = {isa = PBXBuildFile; fileRef = CD476B65C4780C5C764DF5BA9760D797 /* ADJAttribution.m */; };
+		D6800A722C8E1ABC6C796061713DF450 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		D766CDD15A56CDF6EE3CEEFD3770FCA9 /* NSString+ADJAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 511AD6D963D0F1A5D1CA43A2687DEE8B /* NSString+ADJAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D79ED765536E02DAEAEC2200F2AE18D3 /* ADJPurchase.h in Headers */ = {isa = PBXBuildFile; fileRef = 10768194C7C92ED1F87D7A510E2F5799 /* ADJPurchase.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D8BB5A92DF1377ED933C3B02578735DC /* GoogleMobileAdsPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A8ED358D0B33E56AB7CA14CFEFE379 /* GoogleMobileAdsPlaceholder.swift */; };
-		D9229E982CED4AC89878BC52D32D3173 /* iAdsAdmobSDK_RewardedManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17FAD9FA4E23073DD3F12AE7166319FE /* iAdsAdmobSDK_RewardedManager.swift */; };
 		DDD464468103B3BDDB3BAB5A798F0B03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30453446C5310EA114B978294858C9A5 /* Foundation.framework */; };
 		E0D9FE4C345932E2661FDFF1892A1CCC /* Adjust-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BD20F86CFD19771BF3C24A8506D8DD85 /* Adjust-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E10BA187896C55CE325DDD22671CC362 /* iAdsAdmobSDKManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CEB86DA3C18E9B7ABE8A82EE87DDB69 /* iAdsAdmobSDKManager.swift */; };
 		E5895E6609947B3CF1532DBD97872C90 /* Adjust.h in Headers */ = {isa = PBXBuildFile; fileRef = CDA1046FA348817F32783F444B7FAC44 /* Adjust.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E89DD6DBFDFD335C89D397A19B710694 /* ADJSKAdNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EC0322F86BECA44B8182CED36936024 /* ADJSKAdNetwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EAAC39103C58573AE1BDC750D926D960 /* iAdsAdmobSDK_NativeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C1D99C0899D5EB0C41AD7C29947EB2 /* iAdsAdmobSDK_NativeManager.swift */; };
+		EAFEC20034B40293B52B29AB38CDB115 /* iAdsGamSDK_Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = C35BEA65FC2ED22B85087AF5B6899EB7 /* iAdsGamSDK_Error.swift */; };
+		EB771ECEA81533E8C1809528B7BA56EB /* iAdsGamSDK_InterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC705AD0659302AB5C85927ED749CD14 /* iAdsGamSDK_InterManager.swift */; };
+		EC28542AE0E4F88DF35A87FABB1E61E5 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 397C7A0E0FDA3C7D48D62697D091DD0D /* PrivacyInfo.xcprivacy */; };
 		EDA3C4D679E1E9B0431A4990455DCA50 /* ADJActivityHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6809E34B79F1E9C2A059CA117EE2E3 /* ADJActivityHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3AA8694F9273D221D360BAECA703AF0 /* ADJPurchaseVerificationResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 3718553BF0192EAA2561945372AB6A7E /* ADJPurchaseVerificationResult.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F3E8C78DB60BE4FC427F85B8FEB548E3 /* ADJPackageParams.m in Sources */ = {isa = PBXBuildFile; fileRef = 13BACFE960D3612765EE5726F476E72F /* ADJPackageParams.m */; };
 		F60BAA22EDE2929B4CB0F103A26AFFE0 /* ADJSdkClickHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = DB1C89E85B016226D57E454DD4F8C4EF /* ADJSdkClickHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F772E2A386E0B2CAA36345046644A5B0 /* ADJAdjustFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = D48DD8A7B650FBD1AE65F710100F9F42 /* ADJAdjustFactory.m */; };
 		F84AB7F12C97E447EB1EE778ACBEA6A6 /* ADJAdRevenue.m in Sources */ = {isa = PBXBuildFile; fileRef = CBD6E4409F39C4129E0824BE8832AB2C /* ADJAdRevenue.m */; };
-		FBE67A602A70474B3828042F81D02FC6 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = 9A041C7A36A6F42E2A1A1F255A64E633 /* PrivacyInfo.xcprivacy */; };
 		FC8F1262E2ED62E6380D8D72D25E6D57 /* Pods-iAdsAdmobSDK_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 453BC775587C04F50919E9901DFDD4DC /* Pods-iAdsAdmobSDK_Tests-dummy.m */; };
 		FE749DA713C360DF275FCAF07117C6EC /* ADJActivityState.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CA63AE0C2C75C3EB42E785075B23535 /* ADJActivityState.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FF15FCF83B6748A9BC05A64BBD6A997D /* ADJAttributionHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E857F36824B6BBB516CC278E7072E2A /* ADJAttributionHandler.m */; };
@@ -183,138 +178,138 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1E8D4C0F9A501F4D2203FC5CC6FE9A2E /* PBXContainerItemProxy */ = {
+		24F7FB42FCF10B3A9CA4392BF29BB4F9 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F4CA3867DE33786E1D530A58822E1FE1;
-			remoteInfo = iAdsCoreSDK;
+			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
+			remoteInfo = "Google-Mobile-Ads-SDK";
 		};
-		33A8C3F5259208BEC8ECC42805FE7D88 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57CE8CD2A83F96AA46F0581B9E9EAA03;
-			remoteInfo = iReadFileConfigSDK;
-		};
-		40B713F17A7EB00DE07BF8A188B3FFA7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B767504D434F16D4D6DBE7C3876B40A9;
-			remoteInfo = iAdsAdmobSDK;
-		};
-		4C5AD688A2A6D80DADA40DBAA86ADA9D /* PBXContainerItemProxy */ = {
+		2BE41E3D31582F22F7A068DC91C840A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 471352CEDDB3183F0E470F770197C032;
 			remoteInfo = "Adjust-Adjust";
 		};
-		51EDE744C4A85AE0F2DAB6A5080D0593 /* PBXContainerItemProxy */ = {
+		3587D68B50678AF7FECF439051B975F4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 35255B272EA6381B5AC266D2307D74B6;
-			remoteInfo = iTrackingSDK;
+			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
+			remoteInfo = Adjust;
 		};
-		5F231A376BF429D2B8B7403608C95B88 /* PBXContainerItemProxy */ = {
+		37A09B6FBFE4CC1E28847C1CAF676065 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 79592F7F6AFCC433D5B7E15424D8D570;
-			remoteInfo = iComponentsSDK;
+			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
+			remoteInfo = Adjust;
 		};
-		66F7EF24E6B6FBB620C8D00349054782 /* PBXContainerItemProxy */ = {
+		5AACA197B738D07D6F34BB9F5931FAD2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
 			remoteInfo = "Google-Mobile-Ads-SDK";
 		};
-		7779101FE6C973CFCC5EAA39364190F7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 79592F7F6AFCC433D5B7E15424D8D570;
-			remoteInfo = iComponentsSDK;
-		};
-		7F97B325636B5073F6B154D3654A4F92 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 63A7C675C13F87669AF56006D943998B;
-			remoteInfo = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
-		};
-		8869C7B74DE1AFC11B3D40114E01E88C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 57CE8CD2A83F96AA46F0581B9E9EAA03;
-			remoteInfo = iReadFileConfigSDK;
-		};
-		89A44FDF0BBB55B9AD95A2D95EED0FB8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 36FD0958A0EC4A0FCF599E9B22719B03;
-			remoteInfo = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
-		};
-		94C981126EFBE47A51F28C8A03B7889D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 35255B272EA6381B5AC266D2307D74B6;
-			remoteInfo = iTrackingSDK;
-		};
-		9C3ABAB5A7C2490FF9366F85C80B991D /* PBXContainerItemProxy */ = {
+		65E4CB92981A5B09359F17D7F7AEA0E6 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = F4CA3867DE33786E1D530A58822E1FE1;
 			remoteInfo = iAdsCoreSDK;
 		};
-		A59431576EBAA31A1B672431CB062C59 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
-			remoteInfo = Adjust;
-		};
-		A6F2B07CE70B6CC2D4BC38ADE504E5F3 /* PBXContainerItemProxy */ = {
+		80DE5946C93660E428EEBECA94126C4B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
 			remoteInfo = GoogleUserMessagingPlatform;
 		};
-		B14EE903BB3A2612715DF98B3056C191 /* PBXContainerItemProxy */ = {
+		8327D5BADF8144BB7AD114062B718F20 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79592F7F6AFCC433D5B7E15424D8D570;
+			remoteInfo = iComponentsSDK;
+		};
+		83C3DA685FAE42668F1FA5F4F91821A5 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 458B188365A307B3C128ABF524D1A3E3;
 			remoteInfo = GoogleUserMessagingPlatform;
 		};
-		B3B40F56EA9A72BAE71953A2360D149B /* PBXContainerItemProxy */ = {
+		83CB2BF38145496A30276DED69C68FAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CE8CD2A83F96AA46F0581B9E9EAA03;
+			remoteInfo = iReadFileConfigSDK;
+		};
+		87747FF1CC5FDCE16F0C97D807CE2C86 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 57CE8CD2A83F96AA46F0581B9E9EAA03;
+			remoteInfo = iReadFileConfigSDK;
+		};
+		9C85B059FF52AECD54FB114AB22980BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35255B272EA6381B5AC266D2307D74B6;
+			remoteInfo = iTrackingSDK;
+		};
+		9D05A2AA8C81B0F86F54AEC0A1B4AD97 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B767504D434F16D4D6DBE7C3876B40A9;
+			remoteInfo = iAdsAdmobSDK;
+		};
+		A88B7B460C9260EB9F8DF4034CE4D8ED /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 01BDB0660426FE2A7E5F1E089FE83B19;
 			remoteInfo = "Pods-iAdsAdmobSDK_Example";
 		};
-		E0C5771FCFD00A229338E2ADA042BBE8 /* PBXContainerItemProxy */ = {
+		C747801F138998727ACF29730D5D95E0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FEA3B3A570634836C0457F3D7CEF1699;
-			remoteInfo = "Google-Mobile-Ads-SDK";
+			remoteGlobalIDString = 63A7C675C13F87669AF56006D943998B;
+			remoteInfo = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
 		};
-		EDC0AEB915A14C7174FA425396D4D2B4 /* PBXContainerItemProxy */ = {
+		CAB24BEDEAFE1325A25A5A1F62BAE138 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7111F362EA0D14BECD8B96EA1EAA5F79;
-			remoteInfo = Adjust;
+			remoteGlobalIDString = 35255B272EA6381B5AC266D2307D74B6;
+			remoteInfo = iTrackingSDK;
+		};
+		CB05A9CEF3CC6F9372D57512DC92C068 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36FD0958A0EC4A0FCF599E9B22719B03;
+			remoteInfo = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
+		};
+		D9E4F2550D3270B7471C0288F69F18AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CA3867DE33786E1D530A58822E1FE1;
+			remoteInfo = iAdsCoreSDK;
+		};
+		DD6B11286FF1EC4C92648CD91418BF7F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 79592F7F6AFCC433D5B7E15424D8D570;
+			remoteInfo = iComponentsSDK;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -322,56 +317,58 @@
 		019BDA474B2346469A014A407D08DACD /* ADJSessionParameters.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionParameters.h; path = Adjust/ADJSessionParameters.h; sourceTree = "<group>"; };
 		02F77B34FE94BCB4F89BA6C5C505B07C /* ADJConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJConfig.h; path = Adjust/ADJConfig.h; sourceTree = "<group>"; };
 		067D553AFFFCF7272799D628272C54AC /* ADJSubscription.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSubscription.h; path = Adjust/ADJSubscription.h; sourceTree = "<group>"; };
+		06DA21F5BD1F362506423A22043A616C /* iAdsAdmobSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iAdsAdmobSDK.debug.xcconfig; sourceTree = "<group>"; };
+		086F1E93316A5DC52297A18CFA23D8A6 /* iAdsAdmobSDK_NativeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_NativeManager.swift; sourceTree = "<group>"; };
 		0913B9C0B4F2365DBF69BAF79836D893 /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
 		0A39E52963CAE5E5B18C4AD1A877F38A /* Pods-iAdsAdmobSDK_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iAdsAdmobSDK_Tests.modulemap"; sourceTree = "<group>"; };
 		0ACB4B4DD82FDD37B2E6A711BBFA620E /* Pods-iAdsAdmobSDK_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAdsAdmobSDK_Example.release.xcconfig"; sourceTree = "<group>"; };
 		0B442246F6F4DDAD01A3B394A26FF273 /* Adjust.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Adjust.modulemap; sourceTree = "<group>"; };
-		0D755AB9170128B7B95688AA7B008F86 /* iAdsAdmobSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iAdsAdmobSDK-Info.plist"; sourceTree = "<group>"; };
 		0DA5192C363E1B3CDCEB0F80C63F2D0D /* ADJSKAdNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSKAdNetwork.m; path = Adjust/ADJSKAdNetwork.m; sourceTree = "<group>"; };
 		0EC0322F86BECA44B8182CED36936024 /* ADJSKAdNetwork.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSKAdNetwork.h; path = Adjust/ADJSKAdNetwork.h; sourceTree = "<group>"; };
 		10768194C7C92ED1F87D7A510E2F5799 /* ADJPurchase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPurchase.h; path = Adjust/ADJPurchase.h; sourceTree = "<group>"; };
 		112E649F4793D72F2406827378324608 /* ADJPurchase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPurchase.m; path = Adjust/ADJPurchase.m; sourceTree = "<group>"; };
 		11B8064A26A851FC893D19AA7CE34ADF /* iReadFileConfigSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iReadFileConfigSDK-xcframeworks.sh"; sourceTree = "<group>"; };
+		1351D928421B943096962DDE0EC97394 /* iAdsGamSDK_NativeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_NativeManager.swift; sourceTree = "<group>"; };
 		13BACFE960D3612765EE5726F476E72F /* ADJPackageParams.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPackageParams.m; path = Adjust/ADJPackageParams.m; sourceTree = "<group>"; };
 		15B3D428387D79218F298121F19276B5 /* ADJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJLogger.h; path = Adjust/ADJLogger.h; sourceTree = "<group>"; };
 		166041978B974349CB5B1363B1F8AC88 /* Adjust.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adjust.release.xcconfig; sourceTree = "<group>"; };
 		170A3D03A144A690C875F6F0D4BC38B7 /* ADJTimerOnce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerOnce.h; path = Adjust/ADJTimerOnce.h; sourceTree = "<group>"; };
 		17A8ED358D0B33E56AB7CA14CFEFE379 /* GoogleMobileAdsPlaceholder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GoogleMobileAdsPlaceholder.swift; path = Sources/GoogleMobileAdsPlaceholder.swift; sourceTree = "<group>"; };
-		17FAD9FA4E23073DD3F12AE7166319FE /* iAdsAdmobSDK_RewardedManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_RewardedManager.swift; sourceTree = "<group>"; };
 		18DE96DC511BD1CE643E8E9A8CE72374 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/SystemConfiguration.framework; sourceTree = DEVELOPER_DIR; };
 		1A23604EE7D0CD17B91843A185DB3239 /* Pods-iAdsAdmobSDK_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAdsAdmobSDK_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1BE1857C148C58D4644508141B354EEC /* iAdsAdmobSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iAdsAdmobSDK-prefix.pch"; sourceTree = "<group>"; };
 		1BF2E07E5A37D3584B41A5BAF2F3AB16 /* NSNumber+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNumber+ADJAdditions.m"; path = "Adjust/ADJAdditions/NSNumber+ADJAdditions.m"; sourceTree = "<group>"; };
 		1C2C4844A0A736AE95022694057950B6 /* iComponentsSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iComponentsSDK.release.xcconfig; sourceTree = "<group>"; };
 		1C3815B38FD5B073B4BAA97D8621184C /* Adjust.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Adjust.m; path = Adjust/Adjust.m; sourceTree = "<group>"; };
 		1D4A88ABE8FA33F3088C44173EE66929 /* ADJEventFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventFailure.h; path = Adjust/ADJEventFailure.h; sourceTree = "<group>"; };
 		1E37F1C268C7FD41A77DE90F584A7991 /* iAdsCoreSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iAdsCoreSDK.debug.xcconfig; sourceTree = "<group>"; };
-		1EFF593CF750C1AC836F521CED5B2964 /* iAdsAdmobSDK_OpenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_OpenManager.swift; sourceTree = "<group>"; };
-		221106123785CF2699F7C9C197C4D29F /* iAdsGamSDK_OpenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_OpenManager.swift; sourceTree = "<group>"; };
 		22371575CE478927C8B65EDC6F307B21 /* ADJResponseData.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJResponseData.m; path = Adjust/ADJResponseData.m; sourceTree = "<group>"; };
 		253BC59E056F4EFCB1AE7EF2566432C9 /* ADJLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJLogger.m; path = Adjust/ADJLogger.m; sourceTree = "<group>"; };
 		25463DBB64CB1DE3B2AD91FA5E45000F /* Pods-iAdsAdmobSDK_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAdsAdmobSDK_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		28D72E3271BFAFAB1031757933DD68FF /* Pods-iAdsAdmobSDK_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-iAdsAdmobSDK_Example.modulemap"; sourceTree = "<group>"; };
 		28E5838C082F97F2796C7A7F6103025E /* ADJAdRevenue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAdRevenue.h; path = Adjust/ADJAdRevenue.h; sourceTree = "<group>"; };
-		2AA5578E2CD88609002B8E9C /* iAdsAdmobSDKManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDKManager.swift; sourceTree = "<group>"; };
 		2B54570162090FE8388059D1B7CC2D23 /* ADJAttribution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttribution.h; path = Adjust/ADJAttribution.h; sourceTree = "<group>"; };
 		2D717EA6AE8B62B28B8E815D87DC9B28 /* ADJUtil.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUtil.h; path = Adjust/ADJUtil.h; sourceTree = "<group>"; };
-		2ED9AC34A5C073C5EADE7231D8C3DCE7 /* iAdsAdmobSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iAdsAdmobSDK-umbrella.h"; sourceTree = "<group>"; };
 		30453446C5310EA114B978294858C9A5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		33A67A436C7DF9CFC53F281FD2B59EFD /* Adjust.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Adjust.debug.xcconfig; sourceTree = "<group>"; };
 		3566D26ABAC7DD609AF80E6114E5B20E /* Pods-iAdsAdmobSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iAdsAdmobSDK_Example"; path = Pods_iAdsAdmobSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3625C99B7949F32DA6249A172F9DC375 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		364E69A4C83000B362BB970613EF07E2 /* iAdsAdmobSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iAdsAdmobSDK.modulemap; sourceTree = "<group>"; };
 		3718553BF0192EAA2561945372AB6A7E /* ADJPurchaseVerificationResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPurchaseVerificationResult.h; path = Adjust/ADJPurchaseVerificationResult.h; sourceTree = "<group>"; };
+		37519C6768EE9CC16D8E7427F336A851 /* iAdsAdmobSDK_Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_Error.swift; sourceTree = "<group>"; };
 		38A9D41AA7EC796EBB4A72EF74B7FDE4 /* ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist"; sourceTree = "<group>"; };
-		397C7A0E0FDA3C7D48D62697D091DD0D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		397C7A0E0FDA3C7D48D62697D091DD0D /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		3998091512768CD07733CB4F02B4BD9F /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources"; path = GoogleMobileAdsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FEA7B41EC2818EC5311090A5283782B /* iAdsCoreSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = iAdsCoreSDK.xcframework; path = frameworks/iAdsCoreSDK.xcframework; sourceTree = "<group>"; };
-		4091FFBF9BBA4F388101FE9BC04C6415 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
+		3B7489724246DEFE0128F8C84F000C62 /* iAdsAdmobSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iAdsAdmobSDK-dummy.m"; sourceTree = "<group>"; };
+		3C0C1B7585ADA76B170DD556E2A764E7 /* iAdsAdmobSDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "iAdsAdmobSDK-Info.plist"; sourceTree = "<group>"; };
+		3FEA7B41EC2818EC5311090A5283782B /* iAdsCoreSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iAdsCoreSDK.xcframework; path = frameworks/iAdsCoreSDK.xcframework; sourceTree = "<group>"; };
+		4091FFBF9BBA4F388101FE9BC04C6415 /* GoogleMobileAds.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = GoogleMobileAds.xcframework; path = Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework; sourceTree = "<group>"; };
 		4166756F702825784A60007491BA5D3A /* Google-Mobile-Ads-SDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.release.xcconfig"; sourceTree = "<group>"; };
-		42C1D99C0899D5EB0C41AD7C29947EB2 /* iAdsAdmobSDK_NativeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_NativeManager.swift; sourceTree = "<group>"; };
+		43729C962A917EF4ED50E78CC504D314 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		447D4A7353262A776F88E5C60468DBCA /* Google-Mobile-Ads-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.debug.xcconfig"; sourceTree = "<group>"; };
 		453BC775587C04F50919E9901DFDD4DC /* Pods-iAdsAdmobSDK_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iAdsAdmobSDK_Tests-dummy.m"; sourceTree = "<group>"; };
 		4B5A1D08F7E0533BA3DE6EBC3EBC73C7 /* Pods-iAdsAdmobSDK_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iAdsAdmobSDK_Tests-umbrella.h"; sourceTree = "<group>"; };
-		4F3EF44061BA1272ACE92B4E73EEB9ED /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
-		5018B8D84B6D9B7DD71ED61FDD42B835 /* iAdsAdmobSDK_InterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_InterManager.swift; sourceTree = "<group>"; };
+		4F3EF44061BA1272ACE92B4E73EEB9ED /* UserMessagingPlatform.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = UserMessagingPlatform.xcframework; path = Frameworks/Release/UserMessagingPlatform.xcframework; sourceTree = "<group>"; };
 		511AD6D963D0F1A5D1CA43A2687DEE8B /* NSString+ADJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+ADJAdditions.h"; path = "Adjust/ADJAdditions/NSString+ADJAdditions.h"; sourceTree = "<group>"; };
 		51E94CB47103A938A49A82DFAD1D19D5 /* ADJActivityKind.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityKind.h; path = Adjust/ADJActivityKind.h; sourceTree = "<group>"; };
 		52F0633627564BA9E8631BF23C86B7D9 /* ADJEvent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEvent.h; path = Adjust/ADJEvent.h; sourceTree = "<group>"; };
@@ -384,13 +381,11 @@
 		5E857F36824B6BBB516CC278E7072E2A /* ADJAttributionHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAttributionHandler.m; path = Adjust/ADJAttributionHandler.m; sourceTree = "<group>"; };
 		5F6692DB644A22F269E2DF09F5486FB2 /* GoogleUserMessagingPlatform.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.release.xcconfig; sourceTree = "<group>"; };
 		6205B1C9FAAAB2A9F53D82E5D643C3BE /* ADJPurchaseVerificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPurchaseVerificationHandler.m; path = Adjust/ADJPurchaseVerificationHandler.m; sourceTree = "<group>"; };
-		66C7EFA2431BFC2F45DB948FB75477F5 /* iAdsGamSDK_InterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_InterManager.swift; sourceTree = "<group>"; };
 		6704D589FB044CB7FDAE58FABED57A39 /* ADJThirdPartySharing.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJThirdPartySharing.h; path = Adjust/ADJThirdPartySharing.h; sourceTree = "<group>"; };
-		689E4AC5DB5E5CB22150BDAD94B4290B /* iAdsGamSDK_RewardedManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_RewardedManager.swift; sourceTree = "<group>"; };
-		6CA3E54057F70CAF50024A3372386E4D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		68527BED20B8B50D9FBE6635A7A10B93 /* iAdsAdmobSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iAdsAdmobSDK.release.xcconfig; sourceTree = "<group>"; };
 		6CA63AE0C2C75C3EB42E785075B23535 /* ADJActivityState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityState.h; path = Adjust/ADJActivityState.h; sourceTree = "<group>"; };
 		6E84239B06758F36CAD18308AF303D89 /* ADJTimerOnce.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJTimerOnce.m; path = Adjust/ADJTimerOnce.m; sourceTree = "<group>"; };
-		6F2CE052162644E26190D9D9866AB83A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = Adjust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		6F2CE052162644E26190D9D9866AB83A /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = Adjust/PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 		70DE112DB426BEF4294DA2F8828C3AF8 /* Pods-iAdsAdmobSDK_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAdsAdmobSDK_Example-frameworks.sh"; sourceTree = "<group>"; };
 		73DD7F0156451FCCF2AFA44F8BC31312 /* iTrackingSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iTrackingSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		741C11D2C955C7C81797CDAFB7A7F799 /* iAdsCoreSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iAdsCoreSDK-xcframeworks.sh"; sourceTree = "<group>"; };
@@ -398,7 +393,7 @@
 		763A5A7ABE1B5CA68DBED3EF10C51AC3 /* ADJLinkResolution.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJLinkResolution.h; path = Adjust/ADJLinkResolution.h; sourceTree = "<group>"; };
 		76E15B29A9EFCEEBC57B2AD63820616E /* Pods-iAdsAdmobSDK_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-iAdsAdmobSDK_Example-resources.sh"; sourceTree = "<group>"; };
 		7903DA75E765B2511A242F0D2A4295F7 /* ADJActivityPackage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityPackage.h; path = Adjust/ADJActivityPackage.h; sourceTree = "<group>"; };
-		79E10C88309CEE86AC5BEEF59B277452 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		7CEB86DA3C18E9B7ABE8A82EE87DDB69 /* iAdsAdmobSDKManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = iAdsAdmobSDKManager.swift; path = iAdsAdmobSDK/Classes/iAdsAdmobSDKManager.swift; sourceTree = "<group>"; };
 		7E185C213F44E4691EA593135579460E /* ADJConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJConfig.m; path = Adjust/ADJConfig.m; sourceTree = "<group>"; };
 		7EDDD01B228B2C0811299604EA47CCB1 /* Adjust-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adjust-prefix.pch"; sourceTree = "<group>"; };
 		7EF089A5A6D38EB2C65152111E5712BA /* ADJSessionFailure.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionFailure.h; path = Adjust/ADJSessionFailure.h; sourceTree = "<group>"; };
@@ -408,24 +403,22 @@
 		801D790F4B02B4DB6448FFB8A7B24656 /* ADJSessionFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionFailure.m; path = Adjust/ADJSessionFailure.m; sourceTree = "<group>"; };
 		80B87E7C2A9350D5823F96231F669B1F /* Google-Mobile-Ads-SDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Google-Mobile-Ads-SDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		82CA0DAB8C69E586C56DD89F742D6B8E /* Pods-iAdsAdmobSDK_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-iAdsAdmobSDK_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		84D41237735486EE021B06C45A5AF8CE /* iComponentsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = iComponentsSDK.xcframework; path = frameworks/iComponentsSDK.xcframework; sourceTree = "<group>"; };
+		84D41237735486EE021B06C45A5AF8CE /* iComponentsSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iComponentsSDK.xcframework; path = frameworks/iComponentsSDK.xcframework; sourceTree = "<group>"; };
 		86B971993B1C5B137CFD33F362F7DC41 /* NSData+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ADJAdditions.m"; path = "Adjust/ADJAdditions/NSData+ADJAdditions.m"; sourceTree = "<group>"; };
 		86EB9134D00009215C5E03AACB0C14E2 /* Pods-iAdsAdmobSDK_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iAdsAdmobSDK_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		89B837214A09BD0EEC85BF845E354A93 /* ADJEventFailure.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEventFailure.m; path = Adjust/ADJEventFailure.m; sourceTree = "<group>"; };
 		8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources"; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA20B2D0D1492B1F4BAEB1B56BF5A8E /* Pods-iAdsAdmobSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iAdsAdmobSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8B1B2597C506B631D2B42220B9A17472 /* iAdsGamSDK_Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_Error.swift; sourceTree = "<group>"; };
 		8CD28CC8FC1CA83DC2ED916DFFC89517 /* ADJEventSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJEventSuccess.h; path = Adjust/ADJEventSuccess.h; sourceTree = "<group>"; };
 		8D9DE196777B22370F304399A59C963B /* Adjust-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Adjust-dummy.m"; sourceTree = "<group>"; };
 		8F397FB0B7FAC2FF6B692C237343AE74 /* ADJRequestHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJRequestHandler.m; path = Adjust/ADJRequestHandler.m; sourceTree = "<group>"; };
 		8F58E0DB1BF268A17CF6EB04D9AA5E01 /* Pods-iAdsAdmobSDK_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAdsAdmobSDK_Example-Info.plist"; sourceTree = "<group>"; };
-		95337755D5F5D899C88EFF2BC80D5CB3 /* iAdsAdmobSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iAdsAdmobSDK.h; path = iAdsAdmobSDK/Classes/iAdsAdmobSDK.h; sourceTree = "<group>"; };
 		95549898995684397FA861F86C561D9E /* GoogleUserMessagingPlatform.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleUserMessagingPlatform.debug.xcconfig; sourceTree = "<group>"; };
 		96B81532943DF55E4B33E3A16A94345A /* ADJSdkClickHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSdkClickHandler.m; path = Adjust/ADJSdkClickHandler.m; sourceTree = "<group>"; };
 		97D51B6E0BAFC0D901C088163160D741 /* iComponentsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iComponentsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		97DD0991E82DFF603925B019E4A07EDF /* ADJUserDefaults.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUserDefaults.h; path = Adjust/ADJUserDefaults.h; sourceTree = "<group>"; };
-		9A041C7A36A6F42E2A1A1F255A64E633 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A041C7A36A6F42E2A1A1F255A64E633 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/Release/UserMessagingPlatform.xcframework/ios-arm64/UserMessagingPlatform.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9E183BF5D658564B02D8A025DB9DF949 /* ADJPurchaseVerificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPurchaseVerificationHandler.h; path = Adjust/ADJPurchaseVerificationHandler.h; sourceTree = "<group>"; };
 		9E88B056CC7AF9E74307955611671A4D /* NSNumber+ADJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNumber+ADJAdditions.h"; path = "Adjust/ADJAdditions/NSNumber+ADJAdditions.h"; sourceTree = "<group>"; };
 		9FE75A5CCEDA333031DFE29A7AA7987D /* Pods-iAdsAdmobSDK_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAdsAdmobSDK_Example-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -433,22 +426,28 @@
 		A2DF3C4CD83BED5757F0EC190264753D /* NSData+ADJAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ADJAdditions.h"; path = "Adjust/ADJAdditions/NSData+ADJAdditions.h"; sourceTree = "<group>"; };
 		A3507A9397C55855AC06E623C13FDF4E /* Pods-iAdsAdmobSDK_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-iAdsAdmobSDK_Example-umbrella.h"; sourceTree = "<group>"; };
 		A6BA5AF86F60537EBD711AD6BB1C470E /* ADJActivityState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityState.m; path = Adjust/ADJActivityState.m; sourceTree = "<group>"; };
+		A75B3ED4C8E07A214241AF9BF8B256FB /* iAdsAdmobSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iAdsAdmobSDK.h; path = iAdsAdmobSDK/Classes/iAdsAdmobSDK.h; sourceTree = "<group>"; };
 		A98A94BEE3474B3D445A7F2B3B43A198 /* ADJSessionSuccess.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSessionSuccess.h; path = Adjust/ADJSessionSuccess.h; sourceTree = "<group>"; };
 		AAE3176833124D9C9B75202B906A953B /* Adjust-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Adjust-Info.plist"; sourceTree = "<group>"; };
 		AB1458876C38CEB524F8B1FD9574DA46 /* ADJUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUserDefaults.m; path = Adjust/ADJUserDefaults.m; sourceTree = "<group>"; };
+		AC705AD0659302AB5C85927ED749CD14 /* iAdsGamSDK_InterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_InterManager.swift; sourceTree = "<group>"; };
 		AD77424990E9366B2949A7719B42B939 /* ADJThirdPartySharing.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJThirdPartySharing.m; path = Adjust/ADJThirdPartySharing.m; sourceTree = "<group>"; };
-		B143E2D8B5CB705D5836CAAA5C05D306 /* iAdsAdmobSDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iAdsAdmobSDK-prefix.pch"; sourceTree = "<group>"; };
+		ADA8D0EFBF76508E78E565C9CB6C48A7 /* iAdsGamSDK_OpenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_OpenManager.swift; sourceTree = "<group>"; };
+		AEF0BCB104029D12632867326A344C97 /* iAdsAdmobSDK_InterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_InterManager.swift; sourceTree = "<group>"; };
 		B18C8EBA2E0C07C9AF49E308E61FA47C /* Google-Mobile-Ads-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Google-Mobile-Ads-SDK-dummy.m"; sourceTree = "<group>"; };
 		B49F9B4FD5163C3AC566E36EA2C693B4 /* ADJUrlStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJUrlStrategy.h; path = Adjust/ADJUrlStrategy.h; sourceTree = "<group>"; };
-		B52AB8FB4CA3ADA35B934284E30A15E4 /* iTrackingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = iTrackingSDK.xcframework; path = frameworks/iTrackingSDK.xcframework; sourceTree = "<group>"; };
+		B52AB8FB4CA3ADA35B934284E30A15E4 /* iTrackingSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iTrackingSDK.xcframework; path = frameworks/iTrackingSDK.xcframework; sourceTree = "<group>"; };
 		B6644B1294FF35B91F3223FD77A603C5 /* ADJSessionSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSessionSuccess.m; path = Adjust/ADJSessionSuccess.m; sourceTree = "<group>"; };
 		B66E7D78EDA5ABE51D58B8314ADE6D7C /* ResourceBundle-Adjust-Adjust-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-Adjust-Adjust-Info.plist"; sourceTree = "<group>"; };
 		B6C339432292171DF9AF35D79D97FF46 /* Adjust-Adjust */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Adjust-Adjust"; path = Adjust.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		B72C95F390B20444CFF3E20BD3AF6116 /* Pods-iAdsAdmobSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iAdsAdmobSDK_Example-dummy.m"; sourceTree = "<group>"; };
-		B96D92D24FF47C0A4E1F8BA1508A7308 /* iAdsAdmobSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = iAdsAdmobSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		B99E4D1655ADE71F82635E7D09376392 /* iComponentsSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iComponentsSDK.debug.xcconfig; sourceTree = "<group>"; };
 		BD20F86CFD19771BF3C24A8506D8DD85 /* Adjust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adjust-umbrella.h"; sourceTree = "<group>"; };
+		BD418E0943FED77DC7D6F38A830AA9DF /* iAdsAdmobSDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "iAdsAdmobSDK-umbrella.h"; sourceTree = "<group>"; };
 		C0E0C8FA04F93B7734EDB123A1B5F6C0 /* ADJSubscription.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSubscription.m; path = Adjust/ADJSubscription.m; sourceTree = "<group>"; };
+		C35BEA65FC2ED22B85087AF5B6899EB7 /* iAdsGamSDK_Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_Error.swift; sourceTree = "<group>"; };
+		C63E41C7E625C2B992C513C8D1216250 /* iAdsAdmobSDK_OpenManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_OpenManager.swift; sourceTree = "<group>"; };
+		C6D55943889B9DDBEA41A9DE8C841C87 /* iAdsGamSDK_RewardedManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_RewardedManager.swift; sourceTree = "<group>"; };
 		C9156A6C7C0AEA03FE445B421119DDC7 /* Pods-iAdsAdmobSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iAdsAdmobSDK_Tests"; path = Pods_iAdsAdmobSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CA8AFCF00F154C579FBE82AFF323704A /* GoogleUserMessagingPlatform-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleUserMessagingPlatform-xcframeworks.sh"; sourceTree = "<group>"; };
 		CBD6E4409F39C4129E0824BE8832AB2C /* ADJAdRevenue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdRevenue.m; path = Adjust/ADJAdRevenue.m; sourceTree = "<group>"; };
@@ -461,34 +460,30 @@
 		CDEC068C1CBC277A94F079A3C35492A5 /* ADJBackoffStrategy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJBackoffStrategy.h; path = Adjust/ADJBackoffStrategy.h; sourceTree = "<group>"; };
 		CFD64F431FCBF5DACD55080BA1279D2F /* ADJPackageBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageBuilder.h; path = Adjust/ADJPackageBuilder.h; sourceTree = "<group>"; };
 		D1AF264AEFC8A9F96318660DC5BE160F /* ADJPackageParams.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageParams.h; path = Adjust/ADJPackageParams.h; sourceTree = "<group>"; };
-		D391EDD7024962CDBC32CA930ABB08AA /* iAdsAdmobSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iAdsAdmobSDK.release.xcconfig; sourceTree = "<group>"; };
-		D3F1DE3EBF2DF85BB22063BB77DC4F7D /* iAdsAdmobSDK.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = iAdsAdmobSDK.modulemap; sourceTree = "<group>"; };
+		D2A9CA721E2CC1FD3CBD6149A6DECD0E /* iAdsAdmobSDK_RewardedManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_RewardedManager.swift; sourceTree = "<group>"; };
 		D400B21AF9C3DD02FBB8F803FF03ABB8 /* Pods-iAdsAdmobSDK_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-iAdsAdmobSDK_Tests-Info.plist"; sourceTree = "<group>"; };
-		D43792270926051050ED9B285C2AC4C3 /* iAdsAdmobSDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "iAdsAdmobSDK-dummy.m"; sourceTree = "<group>"; };
 		D48DD8A7B650FBD1AE65F710100F9F42 /* ADJAdjustFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdjustFactory.m; path = Adjust/ADJAdjustFactory.m; sourceTree = "<group>"; };
 		D5515D25903C634E7C1CC6FE6A8C1D05 /* ADJAttributionHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAttributionHandler.h; path = Adjust/ADJAttributionHandler.h; sourceTree = "<group>"; };
+		D55612C090D811CB4779A49BB21AB8AB /* iAdsAdmobSDK.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = iAdsAdmobSDK.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		D9F02DBB01E93CAF46FC3B1CCA97BE9D /* ADJAdjustFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJAdjustFactory.h; path = Adjust/ADJAdjustFactory.h; sourceTree = "<group>"; };
 		DB1C89E85B016226D57E454DD4F8C4EF /* ADJSdkClickHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJSdkClickHandler.h; path = Adjust/ADJSdkClickHandler.h; sourceTree = "<group>"; };
 		DF7A825F8DEA8E9D409C17F841864396 /* ADJPackageHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPackageHandler.h; path = Adjust/ADJPackageHandler.h; sourceTree = "<group>"; };
 		E02169BF38C173227C6651A1E6367A29 /* Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
-		E6EC16AD194D5470B27D7EC22F73983D /* iAdsGamSDK_NativeManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_NativeManager.swift; sourceTree = "<group>"; };
 		E86F1787F29816362F64260EAA9B1822 /* ADJResponseData.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJResponseData.h; path = Adjust/ADJResponseData.h; sourceTree = "<group>"; };
 		EB2E5A5BE89D3AEF9B3C5BE0BC744BCE /* Google-Mobile-Ads-SDK-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Mobile-Ads-SDK-prefix.pch"; sourceTree = "<group>"; };
 		EB9C48AE378BC682A7385B8E27A7EC1E /* ADJUtil.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUtil.m; path = Adjust/ADJUtil.m; sourceTree = "<group>"; };
 		EC6809E34B79F1E9C2A059CA117EE2E3 /* ADJActivityHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityHandler.h; path = Adjust/ADJActivityHandler.h; sourceTree = "<group>"; };
 		EE3E72629F435FCDF96CF8A90C85F7B3 /* NSString+ADJAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+ADJAdditions.m"; path = "Adjust/ADJAdditions/NSString+ADJAdditions.m"; sourceTree = "<group>"; };
 		EFA5A92AD3E3E50CF1426A7F47362505 /* iAdsCoreSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iAdsCoreSDK.release.xcconfig; sourceTree = "<group>"; };
-		F02707716FAD927AB0CAFEC7F2F72EE6 /* iAdsAdmobSDK_Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsAdmobSDK_Error.swift; sourceTree = "<group>"; };
 		F0A348597D17A798AA2091CE25802F19 /* Google-Mobile-Ads-SDK-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Google-Mobile-Ads-SDK-umbrella.h"; sourceTree = "<group>"; };
 		F12BD62223BE1AB4C26EF594122ABA43 /* ADJActivityHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJActivityHandler.m; path = Adjust/ADJActivityHandler.m; sourceTree = "<group>"; };
 		F1AFD55DC15EA24A5FFA9AAF94982CD0 /* ADJEventSuccess.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJEventSuccess.m; path = Adjust/ADJEventSuccess.m; sourceTree = "<group>"; };
 		F5B47B2B3272F27B07305D4E5D85CB10 /* ADJPackageBuilder.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPackageBuilder.m; path = Adjust/ADJPackageBuilder.m; sourceTree = "<group>"; };
 		F7FBACFB32746565D09596B4F84C17F0 /* iTrackingSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iTrackingSDK.debug.xcconfig; sourceTree = "<group>"; };
 		F8ECCB3B4E33C0FDD00B394CC2C7EA2E /* Google-Mobile-Ads-SDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Google-Mobile-Ads-SDK"; path = Google_Mobile_Ads_SDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FAC03F5982330CF0E6298DDC1AAAEEA2 /* iAdsAdmobSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = iAdsAdmobSDK.debug.xcconfig; sourceTree = "<group>"; };
 		FB412FF0EEFE9D80B01449B728D523AD /* iAdsAdmobSDK */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = iAdsAdmobSDK; path = iAdsAdmobSDK.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC400EDD76022C0CAED9F7A294709384 /* ADJTimerCycle.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJTimerCycle.m; path = Adjust/ADJTimerCycle.m; sourceTree = "<group>"; };
-		FDED576FBA9631A020D433B2129E73AE /* iReadFileConfigSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; name = iReadFileConfigSDK.xcframework; path = frameworks/iReadFileConfigSDK.xcframework; sourceTree = "<group>"; };
+		FDED576FBA9631A020D433B2129E73AE /* iReadFileConfigSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iReadFileConfigSDK.xcframework; path = frameworks/iReadFileConfigSDK.xcframework; sourceTree = "<group>"; };
 		FF0D26DB359317A8B8201E782D09B71B /* ADJBackoffStrategy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJBackoffStrategy.m; path = Adjust/ADJBackoffStrategy.m; sourceTree = "<group>"; };
 		FF3FDFE834CE00281E6490AD7EE04B51 /* ADJLinkResolution.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJLinkResolution.m; path = Adjust/ADJLinkResolution.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -502,7 +497,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		06FF47D77763A39CBAE144D98727D481 /* Frameworks */ = {
+		0F7EA351BE878E3CE5163C5F650F4F2E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -517,6 +512,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4EC203043345DC2CFC032708BE296384 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D6800A722C8E1ABC6C796061713DF450 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		946735A7FF9811FB9F203FFEB33D1F46 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -526,7 +529,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A22BA6A2F0CAD0E9A64DC68F61800ABE /* Frameworks */ = {
+		97BA8CE18DCA7C817CC0C603AB7C0144 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -541,45 +544,31 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D14B52ED98245EFEB6C28A0BB7566C6D /* Frameworks */ = {
+		FB6AE29EB87CA9BC5B66A1794D70BC57 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F5AC9BFDACD1DB37E9C2638CDCE5EBB2 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A7C456D658B6AA2CB309BA514B0AAA84 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		001EB55D84FDB3E027181C0B597E29DF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D3F1DE3EBF2DF85BB22063BB77DC4F7D /* iAdsAdmobSDK.modulemap */,
-				D43792270926051050ED9B285C2AC4C3 /* iAdsAdmobSDK-dummy.m */,
-				0D755AB9170128B7B95688AA7B008F86 /* iAdsAdmobSDK-Info.plist */,
-				B143E2D8B5CB705D5836CAAA5C05D306 /* iAdsAdmobSDK-prefix.pch */,
-				2ED9AC34A5C073C5EADE7231D8C3DCE7 /* iAdsAdmobSDK-umbrella.h */,
-				FAC03F5982330CF0E6298DDC1AAAEEA2 /* iAdsAdmobSDK.debug.xcconfig */,
-				D391EDD7024962CDBC32CA930ABB08AA /* iAdsAdmobSDK.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/iAdsAdmobSDK";
-			sourceTree = "<group>";
-		};
 		01DEA2D2666A75490770FE9316466A7D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				3FEA7B41EC2818EC5311090A5283782B /* iAdsCoreSDK.xcframework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0420A6F0082E06768C02BE574C86E2B0 /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				086F1E93316A5DC52297A18CFA23D8A6 /* iAdsAdmobSDK_NativeManager.swift */,
+			);
+			name = Native;
+			path = Native;
 			sourceTree = "<group>";
 		};
 		070925E89935181516B13016356F028F /* Pods-iAdsAdmobSDK_Example */ = {
@@ -600,26 +589,13 @@
 			path = "Target Support Files/Pods-iAdsAdmobSDK_Example";
 			sourceTree = "<group>";
 		};
-		0A91314F9D22CD41BD0B170312877A0D /* Development Pods */ = {
+		13391CFAAAFBB6EF2A17609A5021E5CB /* Rewarded */ = {
 			isa = PBXGroup;
 			children = (
-				148DB71A2DFB104DB589E9CF393903D5 /* iAdsAdmobSDK */,
+				C6D55943889B9DDBEA41A9DE8C841C87 /* iAdsGamSDK_RewardedManager.swift */,
 			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		148DB71A2DFB104DB589E9CF393903D5 /* iAdsAdmobSDK */ = {
-			isa = PBXGroup;
-			children = (
-				2AA5578E2CD88609002B8E9C /* iAdsAdmobSDKManager.swift */,
-				95337755D5F5D899C88EFF2BC80D5CB3 /* iAdsAdmobSDK.h */,
-				9BB2ED73BEDDF4B8A3280F79886760FA /* AdsAdmob */,
-				566FEEC57DEDFC5AE16EC4CD3F929309 /* AdsGAM */,
-				2AA07AEE3B191524A722D4B3CE335DD0 /* Pod */,
-				001EB55D84FDB3E027181C0B597E29DF /* Support Files */,
-			);
-			name = iAdsAdmobSDK;
-			path = ../..;
+			name = Rewarded;
+			path = Rewarded;
 			sourceTree = "<group>";
 		};
 		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
@@ -652,6 +628,14 @@
 			path = "../Target Support Files/iReadFileConfigSDK";
 			sourceTree = "<group>";
 		};
+		1B58856828CF997F6E3E4401F43BF3CA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F799B98F9BDC9D71D5868CBE4938D7B /* iAdsAdmobSDK */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		221B4F5F90ED5AD48B83059F0F1192C8 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -681,22 +665,14 @@
 			path = "../Target Support Files/Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
-		2AA07AEE3B191524A722D4B3CE335DD0 /* Pod */ = {
+		23E180F4E8D70976E817441EDD5F5E00 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				B96D92D24FF47C0A4E1F8BA1508A7308 /* iAdsAdmobSDK.podspec */,
-				79E10C88309CEE86AC5BEEF59B277452 /* LICENSE */,
-				6CA3E54057F70CAF50024A3372386E4D /* README.md */,
+				D55612C090D811CB4779A49BB21AB8AB /* iAdsAdmobSDK.podspec */,
+				43729C962A917EF4ED50E78CC504D314 /* LICENSE */,
+				3625C99B7949F32DA6249A172F9DC375 /* README.md */,
 			);
 			name = Pod;
-			sourceTree = "<group>";
-		};
-		2B979E97F649EE14AB06CD2A4AFFFA3F /* Open */ = {
-			isa = PBXGroup;
-			children = (
-				221106123785CF2699F7C9C197C4D29F /* iAdsGamSDK_OpenManager.swift */,
-			);
-			path = Open;
 			sourceTree = "<group>";
 		};
 		355D1ACEF7D9873C3D3C348F8C875660 /* Google-Mobile-Ads-SDK */ = {
@@ -707,14 +683,16 @@
 				E708127F388AC5DC837761FB97BE46A9 /* Resources */,
 				23230552718A63E8DE4B5BEB5812B43A /* Support Files */,
 			);
+			name = "Google-Mobile-Ads-SDK";
 			path = "Google-Mobile-Ads-SDK";
 			sourceTree = "<group>";
 		};
-		3B991A16520200EE75718C7C6FB0EEC9 /* Inter */ = {
+		40E700F1BC1400B75A680D889A1C05C8 /* Inter */ = {
 			isa = PBXGroup;
 			children = (
-				5018B8D84B6D9B7DD71ED61FDD42B835 /* iAdsAdmobSDK_InterManager.swift */,
+				AC705AD0659302AB5C85927ED749CD14 /* iAdsGamSDK_InterManager.swift */,
 			);
+			name = Inter;
 			path = Inter;
 			sourceTree = "<group>";
 		};
@@ -734,20 +712,17 @@
 			path = "../Target Support Files/Adjust";
 			sourceTree = "<group>";
 		};
-		45CC7E5D3A3435A9DE2CCB31B8D4F47D /* Inter */ = {
+		48729176B85977D5D286A33BF9DA95B0 /* AdsAdmob */ = {
 			isa = PBXGroup;
 			children = (
-				66C7EFA2431BFC2F45DB948FB75477F5 /* iAdsGamSDK_InterManager.swift */,
+				37519C6768EE9CC16D8E7427F336A851 /* iAdsAdmobSDK_Error.swift */,
+				5FE19D3DD223EB4AB4F7A00A9E5DE4CA /* Inter */,
+				0420A6F0082E06768C02BE574C86E2B0 /* Native */,
+				721A7C5CA043E3C1B8EBDE9B20277821 /* Open */,
+				A3059A0D01A5A536AEAB7CF487918C46 /* Rewarded */,
 			);
-			path = Inter;
-			sourceTree = "<group>";
-		};
-		4DC079DF7AE9ABD1C22471F4D6A22128 /* Rewarded */ = {
-			isa = PBXGroup;
-			children = (
-				17FAD9FA4E23073DD3F12AE7166319FE /* iAdsAdmobSDK_RewardedManager.swift */,
-			);
-			path = Rewarded;
+			name = AdsAdmob;
+			path = iAdsAdmobSDK/Classes/AdsAdmob;
 			sourceTree = "<group>";
 		};
 		52849F5ECCB41D4BA561A09179A5F941 /* Frameworks */ = {
@@ -758,25 +733,13 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		566FEEC57DEDFC5AE16EC4CD3F929309 /* AdsGAM */ = {
-			isa = PBXGroup;
-			children = (
-				8B1B2597C506B631D2B42220B9A17472 /* iAdsGamSDK_Error.swift */,
-				45CC7E5D3A3435A9DE2CCB31B8D4F47D /* Inter */,
-				A4D02D775223176B6E77BB4CE782E363 /* Native */,
-				2B979E97F649EE14AB06CD2A4AFFFA3F /* Open */,
-				A35EB42311D259646539616C28F553D5 /* Rewarded */,
-			);
-			name = AdsGAM;
-			path = iAdsAdmobSDK/Classes/AdsGAM;
-			sourceTree = "<group>";
-		};
 		5C879D05DA5736AAAF07C908252F0979 /* iAdsCoreSDK */ = {
 			isa = PBXGroup;
 			children = (
 				01DEA2D2666A75490770FE9316466A7D /* Frameworks */,
 				170FA4CEBAEF9958A7702851497EB51F /* Support Files */,
 			);
+			name = iAdsCoreSDK;
 			path = iAdsCoreSDK;
 			sourceTree = "<group>";
 		};
@@ -786,6 +749,7 @@
 				A98D39599AACE5A24ADAE04E805BA635 /* Frameworks */,
 				5F621C181F434A51AF566ACB3107CB9C /* Support Files */,
 			);
+			name = iComponentsSDK;
 			path = iComponentsSDK;
 			sourceTree = "<group>";
 		};
@@ -798,6 +762,15 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/iComponentsSDK";
+			sourceTree = "<group>";
+		};
+		5FE19D3DD223EB4AB4F7A00A9E5DE4CA /* Inter */ = {
+			isa = PBXGroup;
+			children = (
+				AEF0BCB104029D12632867326A344C97 /* iAdsAdmobSDK_InterManager.swift */,
+			);
+			name = Inter;
+			path = Inter;
 			sourceTree = "<group>";
 		};
 		623147BD4D3BA1A585485CE77A93C718 /* Frameworks */ = {
@@ -827,6 +800,29 @@
 			name = Resources;
 			sourceTree = "<group>";
 		};
+		6F799B98F9BDC9D71D5868CBE4938D7B /* iAdsAdmobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A75B3ED4C8E07A214241AF9BF8B256FB /* iAdsAdmobSDK.h */,
+				7CEB86DA3C18E9B7ABE8A82EE87DDB69 /* iAdsAdmobSDKManager.swift */,
+				48729176B85977D5D286A33BF9DA95B0 /* AdsAdmob */,
+				D9D1AAC956BA53ABD91D1C5E99120790 /* AdsGAM */,
+				23E180F4E8D70976E817441EDD5F5E00 /* Pod */,
+				FA518BFC56ED03D5C2D3C188F39A6BF2 /* Support Files */,
+			);
+			name = iAdsAdmobSDK;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		721A7C5CA043E3C1B8EBDE9B20277821 /* Open */ = {
+			isa = PBXGroup;
+			children = (
+				C63E41C7E625C2B992C513C8D1216250 /* iAdsAdmobSDK_OpenManager.swift */,
+			);
+			name = Open;
+			path = Open;
+			sourceTree = "<group>";
+		};
 		7281C82477DD2BEC7B575593AB49D8C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -844,20 +840,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		76DE1E2561748622968515D6E7419565 /* Native */ = {
-			isa = PBXGroup;
-			children = (
-				42C1D99C0899D5EB0C41AD7C29947EB2 /* iAdsAdmobSDK_NativeManager.swift */,
-			);
-			path = Native;
-			sourceTree = "<group>";
-		};
 		7A3053CD995EAE40F8D3F49174647122 /* iReadFileConfigSDK */ = {
 			isa = PBXGroup;
 			children = (
 				7281C82477DD2BEC7B575593AB49D8C7 /* Frameworks */,
 				1A42A22D2B7F316DAD63A3906AA13EAD /* Support Files */,
 			);
+			name = iReadFileConfigSDK;
 			path = iReadFileConfigSDK;
 			sourceTree = "<group>";
 		};
@@ -884,36 +873,17 @@
 				68F421D191B73005AA75DBC933813D14 /* Resources */,
 				221B4F5F90ED5AD48B83059F0F1192C8 /* Support Files */,
 			);
+			name = GoogleUserMessagingPlatform;
 			path = GoogleUserMessagingPlatform;
 			sourceTree = "<group>";
 		};
-		9BB2ED73BEDDF4B8A3280F79886760FA /* AdsAdmob */ = {
+		A3059A0D01A5A536AEAB7CF487918C46 /* Rewarded */ = {
 			isa = PBXGroup;
 			children = (
-				F02707716FAD927AB0CAFEC7F2F72EE6 /* iAdsAdmobSDK_Error.swift */,
-				3B991A16520200EE75718C7C6FB0EEC9 /* Inter */,
-				76DE1E2561748622968515D6E7419565 /* Native */,
-				C3E6B629A67426F41A42B00C4DFABA96 /* Open */,
-				4DC079DF7AE9ABD1C22471F4D6A22128 /* Rewarded */,
+				D2A9CA721E2CC1FD3CBD6149A6DECD0E /* iAdsAdmobSDK_RewardedManager.swift */,
 			);
-			name = AdsAdmob;
-			path = iAdsAdmobSDK/Classes/AdsAdmob;
-			sourceTree = "<group>";
-		};
-		A35EB42311D259646539616C28F553D5 /* Rewarded */ = {
-			isa = PBXGroup;
-			children = (
-				689E4AC5DB5E5CB22150BDAD94B4290B /* iAdsGamSDK_RewardedManager.swift */,
-			);
+			name = Rewarded;
 			path = Rewarded;
-			sourceTree = "<group>";
-		};
-		A4D02D775223176B6E77BB4CE782E363 /* Native */ = {
-			isa = PBXGroup;
-			children = (
-				E6EC16AD194D5470B27D7EC22F73983D /* iAdsGamSDK_NativeManager.swift */,
-			);
-			path = Native;
 			sourceTree = "<group>";
 		};
 		A651368EF97F3D9B9BAA0C0FD537DD81 /* iOS */ = {
@@ -939,15 +909,8 @@
 				623147BD4D3BA1A585485CE77A93C718 /* Frameworks */,
 				67FC2A44AF9D063DA76A69D0C1EE0058 /* Support Files */,
 			);
+			name = iTrackingSDK;
 			path = iTrackingSDK;
-			sourceTree = "<group>";
-		};
-		C3E6B629A67426F41A42B00C4DFABA96 /* Open */ = {
-			isa = PBXGroup;
-			children = (
-				1EFF593CF750C1AC836F521CED5B2964 /* iAdsAdmobSDK_OpenManager.swift */,
-			);
-			path = Open;
 			sourceTree = "<group>";
 		};
 		CEDA6415A90C477116C33E311D7C6808 /* Resources */ = {
@@ -962,7 +925,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				0A91314F9D22CD41BD0B170312877A0D /* Development Pods */,
+				1B58856828CF997F6E3E4401F43BF3CA /* Development Pods */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
 				DC67CED2D87C2A7E39009BE9699DEA52 /* Pods */,
 				F1E51E0A44C1F533CCD6FA9F4B3B4FFA /* Products */,
@@ -1056,6 +1019,19 @@
 			name = Core;
 			sourceTree = "<group>";
 		};
+		D9D1AAC956BA53ABD91D1C5E99120790 /* AdsGAM */ = {
+			isa = PBXGroup;
+			children = (
+				C35BEA65FC2ED22B85087AF5B6899EB7 /* iAdsGamSDK_Error.swift */,
+				40E700F1BC1400B75A680D889A1C05C8 /* Inter */,
+				F14AC6A1D048B2C0B85104A51B335ADA /* Native */,
+				FB5715D42C113FC443801A7BD9E08B2A /* Open */,
+				13391CFAAAFBB6EF2A17609A5021E5CB /* Rewarded */,
+			);
+			name = AdsGAM;
+			path = iAdsAdmobSDK/Classes/AdsGAM;
+			sourceTree = "<group>";
+		};
 		DC67CED2D87C2A7E39009BE9699DEA52 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -1092,7 +1068,17 @@
 				D1DA850AB944184D2C7DA1A50C2B9350 /* Core */,
 				41C2BAF51ADECC840AE9D3D4DB446D91 /* Support Files */,
 			);
+			name = Adjust;
 			path = Adjust;
+			sourceTree = "<group>";
+		};
+		F14AC6A1D048B2C0B85104A51B335ADA /* Native */ = {
+			isa = PBXGroup;
+			children = (
+				1351D928421B943096962DDE0EC97394 /* iAdsGamSDK_NativeManager.swift */,
+			);
+			name = Native;
+			path = Native;
 			sourceTree = "<group>";
 		};
 		F1E51E0A44C1F533CCD6FA9F4B3B4FFA /* Products */ = {
@@ -1110,18 +1096,33 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		FA518BFC56ED03D5C2D3C188F39A6BF2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				364E69A4C83000B362BB970613EF07E2 /* iAdsAdmobSDK.modulemap */,
+				3B7489724246DEFE0128F8C84F000C62 /* iAdsAdmobSDK-dummy.m */,
+				3C0C1B7585ADA76B170DD556E2A764E7 /* iAdsAdmobSDK-Info.plist */,
+				1BE1857C148C58D4644508141B354EEC /* iAdsAdmobSDK-prefix.pch */,
+				BD418E0943FED77DC7D6F38A830AA9DF /* iAdsAdmobSDK-umbrella.h */,
+				06DA21F5BD1F362506423A22043A616C /* iAdsAdmobSDK.debug.xcconfig */,
+				68527BED20B8B50D9FBE6635A7A10B93 /* iAdsAdmobSDK.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/iAdsAdmobSDK";
+			sourceTree = "<group>";
+		};
+		FB5715D42C113FC443801A7BD9E08B2A /* Open */ = {
+			isa = PBXGroup;
+			children = (
+				ADA8D0EFBF76508E78E565C9CB6C48A7 /* iAdsGamSDK_OpenManager.swift */,
+			);
+			name = Open;
+			path = Open;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		176EF8AC4366392E68D51C4A50E08A48 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				56C42ED609F4699D44D069BD6F5DFBF0 /* iAdsAdmobSDK.h in Headers */,
-				AF4BE012333A3F2E641C89A7BAE6DC62 /* iAdsAdmobSDK-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		42DEA755A8C18EDDD3AA8CC325737C77 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1143,6 +1144,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E299C9D3FF1F4D5D041BA09A43422BF /* Pods-iAdsAdmobSDK_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5100A84AF9A97A35A3CA60931EA382B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4AFD3B839AB9C7C498FEBAE304A4E039 /* iAdsAdmobSDK.h in Headers */,
+				1939F51E3F5402D1C999EC6555BDAB52 /* iAdsAdmobSDK-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1208,14 +1218,14 @@
 			buildRules = (
 			);
 			dependencies = (
-				5E711D85BB364AF91C4959F649F8BAE7 /* PBXTargetDependency */,
-				8D6E6189BC254E827D710C653E641071 /* PBXTargetDependency */,
-				3948F815AF2AE954A2300F5634A7F3E4 /* PBXTargetDependency */,
-				81542E2A79B53553EB2F3608C6C7A5DE /* PBXTargetDependency */,
-				346A4B823C5416F471BFA63B4372FB24 /* PBXTargetDependency */,
-				9C16370F902428916B7E5582E0B9E768 /* PBXTargetDependency */,
-				402C21B500C781ABA8C0589DE659EFCA /* PBXTargetDependency */,
-				982941831F7B9AFE92BF830CE61B9B53 /* PBXTargetDependency */,
+				0DD7BA32985C7F205339913E7DEA13F9 /* PBXTargetDependency */,
+				0A90BED537E5A92A496A33DA0AFD3410 /* PBXTargetDependency */,
+				21A97EA736D80DA7A4F1BD5760B959B0 /* PBXTargetDependency */,
+				7F8588F920DB36889CE777D384B4DEB1 /* PBXTargetDependency */,
+				2109EFAFF4C54290840D3CB2600392BC /* PBXTargetDependency */,
+				FD4FAD9B00889B215A9CC41F4BBCD1D2 /* PBXTargetDependency */,
+				4DFA689FD6E3B81BC40E06E56216E235 /* PBXTargetDependency */,
+				DFF1231FD1EF8E4AB962343D3D6CAC6C /* PBXTargetDependency */,
 			);
 			name = "Pods-iAdsAdmobSDK_Example";
 			productName = Pods_iAdsAdmobSDK_Example;
@@ -1224,11 +1234,11 @@
 		};
 		36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 34042DF238416C1581CFACCAE43B2F92 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */;
+			buildConfigurationList = 3940328B9A295FADBD5D2EEE99095B5D /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */;
 			buildPhases = (
-				8E0230C74223B943CF14FF8989EB2563 /* Sources */,
-				A22BA6A2F0CAD0E9A64DC68F61800ABE /* Frameworks */,
-				6889E092C01B99660405BCDAAC5ABCC6 /* Resources */,
+				E0F8AF8684B6D7F76B6030F48604B272 /* Sources */,
+				97BA8CE18DCA7C817CC0C603AB7C0144 /* Frameworks */,
+				3419AA07CA043737A3F2988F4236AEB3 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1241,11 +1251,11 @@
 		};
 		471352CEDDB3183F0E470F770197C032 /* Adjust-Adjust */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4D470DCAE5FA0F6F071CD30575D217E4 /* Build configuration list for PBXNativeTarget "Adjust-Adjust" */;
+			buildConfigurationList = A19DFBA326FE8EDFA3447DCF700994CE /* Build configuration list for PBXNativeTarget "Adjust-Adjust" */;
 			buildPhases = (
-				88F1B3CD75798147286C5C27200D08FE /* Sources */,
-				06FF47D77763A39CBAE144D98727D481 /* Frameworks */,
-				7707CBAC038A0E98B8535958FF9709D4 /* Resources */,
+				63B73FC45BAE19F3E4C4FF4E32217E8A /* Sources */,
+				0F7EA351BE878E3CE5163C5F650F4F2E /* Frameworks */,
+				19C052B82E9DF3F5B97E9C221A74CB98 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1258,11 +1268,11 @@
 		};
 		63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EB2AD5118A74CBAB405F37DB0CF6F6BC /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */;
+			buildConfigurationList = 4D5AA8EE5800C1A0037522C58AF51FA2 /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */;
 			buildPhases = (
-				53CCE8B9ADFFC2C4A893423FB36A542C /* Sources */,
-				D14B52ED98245EFEB6C28A0BB7566C6D /* Frameworks */,
-				2F629D20BA10D0706E9EB8AF73A1CDF3 /* Resources */,
+				2BC73B4DEA47749FD9549403A57B73E2 /* Sources */,
+				FB6AE29EB87CA9BC5B66A1794D70BC57 /* Frameworks */,
+				20795EEE76184A0F8AF757E8BAAC2460 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -1285,7 +1295,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				AD9CB387788AFF581045151B48B03DD9 /* PBXTargetDependency */,
+				10D117B98707F32AE570E5D07E66E001 /* PBXTargetDependency */,
 			);
 			name = Adjust;
 			productName = Adjust;
@@ -1304,7 +1314,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				379B2B79A38A1576C76BD67B22EB0F93 /* PBXTargetDependency */,
+				0E7B6402A61D58A53620818D475836D5 /* PBXTargetDependency */,
 			);
 			name = "Pods-iAdsAdmobSDK_Tests";
 			productName = Pods_iAdsAdmobSDK_Tests;
@@ -1313,19 +1323,19 @@
 		};
 		B767504D434F16D4D6DBE7C3876B40A9 /* iAdsAdmobSDK */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00EF1C379DA4A3526CF752544FFE5D95 /* Build configuration list for PBXNativeTarget "iAdsAdmobSDK" */;
+			buildConfigurationList = 8F30905A3D8F2CF3ACE553A4EDA117CE /* Build configuration list for PBXNativeTarget "iAdsAdmobSDK" */;
 			buildPhases = (
-				176EF8AC4366392E68D51C4A50E08A48 /* Headers */,
-				FADCB89BA2BC964F6F3A0613D8A2F389 /* Sources */,
-				F5AC9BFDACD1DB37E9C2638CDCE5EBB2 /* Frameworks */,
-				96ECB31DC593344FAB2CE851226D94BD /* Resources */,
+				C5100A84AF9A97A35A3CA60931EA382B /* Headers */,
+				0458D5367F0BDFE8D86E7AF50DD45779 /* Sources */,
+				4EC203043345DC2CFC032708BE296384 /* Frameworks */,
+				24C035A94B7D31A8F628821F5AE9DAAF /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				6DC1DA1DA3A7A870034D64EB9392EEEE /* PBXTargetDependency */,
-				DE2F9B76D3A9CE147B50A4ABC6743DC8 /* PBXTargetDependency */,
-				17863F1094B956ACD414FE2EF969A1CF /* PBXTargetDependency */,
+				365FC21C97AA9F8DA399998219C16FD9 /* PBXTargetDependency */,
+				A4D55DE30E124119BE1753954F7C4EAE /* PBXTargetDependency */,
+				127B5B4BF3FC42426E33F657D1F92589 /* PBXTargetDependency */,
 			);
 			name = iAdsAdmobSDK;
 			productName = iAdsAdmobSDK;
@@ -1345,8 +1355,8 @@
 			buildRules = (
 			);
 			dependencies = (
-				EA3243D3D65CA70329AB15C7D6D181F7 /* PBXTargetDependency */,
-				82D2AA39C9FD60BCAC443B92F1B5F1CC /* PBXTargetDependency */,
+				BE70BDAE95B2B2D3F972452D69A96D8F /* PBXTargetDependency */,
+				E1952E0330249765B7FA49292DD613F9 /* PBXTargetDependency */,
 			);
 			name = "Google-Mobile-Ads-SDK";
 			productName = Google_Mobile_Ads_SDK;
@@ -1371,6 +1381,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			minimizedProjectReferenceProxies = 0;
 			productRefGroup = F1E51E0A44C1F533CCD6FA9F4B3B4FFA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -1393,6 +1404,14 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		19C052B82E9DF3F5B97E9C221A74CB98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B4D7254A907D03A12E380F21CA6318C /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DA316638A0C70606A21DDA89F18ACAD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -1400,38 +1419,30 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2F629D20BA10D0706E9EB8AF73A1CDF3 /* Resources */ = {
+		20795EEE76184A0F8AF757E8BAAC2460 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE67A602A70474B3828042F81D02FC6 /* PrivacyInfo.xcprivacy in Resources */,
+				568DAA3706DE4FDBFD913E36745E9C58 /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24C035A94B7D31A8F628821F5AE9DAAF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3419AA07CA043737A3F2988F4236AEB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC28542AE0E4F88DF35A87FABB1E61E5 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		342AB4959C90AF3A80557FACD723615C /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		6889E092C01B99660405BCDAAC5ABCC6 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2147BC287D0AF9244E11F975A5EF575A /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7707CBAC038A0E98B8535958FF9709D4 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				10CE67D8D3714A641CBC08F8A7E5F5F5 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		96ECB31DC593344FAB2CE851226D94BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1456,24 +1467,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		021C89F99D15446CDDDA1C4FEEF4429B /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/iReadFileConfigSDK/iReadFileConfigSDK-xcframeworks.sh",
-				"${PODS_ROOT}/iReadFileConfigSDK/frameworks/iReadFileConfigSDK.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/iReadFileConfigSDK/iReadFileConfigSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/iReadFileConfigSDK/iReadFileConfigSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		06CEFD8D8DF821E88E5A7510B1A47E71 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1492,43 +1485,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Google-Mobile-Ads-SDK/Google-Mobile-Ads-SDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		36BED3F028A3E97BD2F52EFCCD448FFB /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/iAdsCoreSDK/iAdsCoreSDK-xcframeworks.sh",
-				"${PODS_ROOT}/iAdsCoreSDK/frameworks/iAdsCoreSDK.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/iAdsCoreSDK/iAdsCoreSDK.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/iAdsCoreSDK/iAdsCoreSDK-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		82E22C26BC178DA81BF9A42E3E7D9ACC /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks.sh",
-				"${PODS_ROOT}/GoogleUserMessagingPlatform/Frameworks/Release/UserMessagingPlatform.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatform.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		9DB24055F67C3945332DAD036A15A5C5 /* [CP] Copy XCFrameworks */ = {
+		48061DADCAD12449012915BB1767E8C3 /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1546,7 +1503,61 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/iTrackingSDK/iTrackingSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		B31E333BBE9C40DA2B681F5E33A407F8 /* [CP] Copy XCFrameworks */ = {
+		48B41DA59F18A6F060FB1D669316603B /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks.sh",
+				"${PODS_ROOT}/GoogleUserMessagingPlatform/Frameworks/Release/UserMessagingPlatform.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleUserMessagingPlatform/UserMessagingPlatform.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleUserMessagingPlatform/GoogleUserMessagingPlatform-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA564D42D626997238C95FE8A42B0B53 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/iReadFileConfigSDK/iReadFileConfigSDK-xcframeworks.sh",
+				"${PODS_ROOT}/iReadFileConfigSDK/frameworks/iReadFileConfigSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/iReadFileConfigSDK/iReadFileConfigSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/iReadFileConfigSDK/iReadFileConfigSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C780BE8730BE0BCF8C7E8F4AB553D563 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/iAdsCoreSDK/iAdsCoreSDK-xcframeworks.sh",
+				"${PODS_ROOT}/iAdsCoreSDK/frameworks/iAdsCoreSDK.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/iAdsCoreSDK/iAdsCoreSDK.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/iAdsCoreSDK/iAdsCoreSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5013D511B6E3F28A1756F527F15CDAD /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1567,11 +1578,37 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0458D5367F0BDFE8D86E7AF50DD45779 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70B441ABFFCAB865F25F67379FD0F880 /* iAdsAdmobSDK-dummy.m in Sources */,
+				38A57014C645952D335EDBCD3CE248C9 /* iAdsAdmobSDK_Error.swift in Sources */,
+				62364CF4D757CED465929C718AE520AA /* iAdsAdmobSDK_InterManager.swift in Sources */,
+				4EA7D6035272E1322B7801B997C655D4 /* iAdsAdmobSDK_NativeManager.swift in Sources */,
+				080A352BA0B363FCB781A1E0DDCCC224 /* iAdsAdmobSDK_OpenManager.swift in Sources */,
+				82AF739449799013EAE0F0B4697ACB67 /* iAdsAdmobSDK_RewardedManager.swift in Sources */,
+				E10BA187896C55CE325DDD22671CC362 /* iAdsAdmobSDKManager.swift in Sources */,
+				EAFEC20034B40293B52B29AB38CDB115 /* iAdsGamSDK_Error.swift in Sources */,
+				EB771ECEA81533E8C1809528B7BA56EB /* iAdsGamSDK_InterManager.swift in Sources */,
+				B472CF062DD7BE33E8DCB7C4D8B329EB /* iAdsGamSDK_NativeManager.swift in Sources */,
+				3E501CF3CE8D0CD36CCCEFC98C36C4B4 /* iAdsGamSDK_OpenManager.swift in Sources */,
+				2051E817C7E7711E929C898CCF392ED6 /* iAdsGamSDK_RewardedManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		25FD381ACBED4E8A27FBC084AA3F5D70 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FC8F1262E2ED62E6380D8D72D25E6D57 /* Pods-iAdsAdmobSDK_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BC73B4DEA47749FD9549403A57B73E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1584,7 +1621,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		53CCE8B9ADFFC2C4A893423FB36A542C /* Sources */ = {
+		63B73FC45BAE19F3E4C4FF4E32217E8A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1599,14 +1636,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88F1B3CD75798147286C5C27200D08FE /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		8E0230C74223B943CF14FF8989EB2563 /* Sources */ = {
+		E0F8AF8684B6D7F76B6030F48604B272 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1660,189 +1690,140 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FADCB89BA2BC964F6F3A0613D8A2F389 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3FFF368FE1E0AB49BB71AF4CFAEC568C /* iAdsAdmobSDK-dummy.m in Sources */,
-				22F4AE2A4F83B6E936CA5E552AC31A75 /* iAdsAdmobSDK_Error.swift in Sources */,
-				6AFA026FFD47B74186992A95B0E595AE /* iAdsAdmobSDK_InterManager.swift in Sources */,
-				EAAC39103C58573AE1BDC750D926D960 /* iAdsAdmobSDK_NativeManager.swift in Sources */,
-				6D6D553DE8038952E8CCA48EB022A697 /* iAdsAdmobSDK_OpenManager.swift in Sources */,
-				2AA5578F2CD88609002B8E9C /* iAdsAdmobSDKManager.swift in Sources */,
-				D9229E982CED4AC89878BC52D32D3173 /* iAdsAdmobSDK_RewardedManager.swift in Sources */,
-				2077C6F2BB2E8FD7C92DCD4E0C4B01B0 /* iAdsGamSDK_Error.swift in Sources */,
-				7DA5D0579C876C909B36FCCD459908ED /* iAdsGamSDK_InterManager.swift in Sources */,
-				7E184A2B15FF2793A4AC922788EA76B7 /* iAdsGamSDK_NativeManager.swift in Sources */,
-				89C9860D76BF0E87EE2D843F186AA9FC /* iAdsGamSDK_OpenManager.swift in Sources */,
-				CE0ADBA990E79EA2288070AF5BF641DD /* iAdsGamSDK_RewardedManager.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		17863F1094B956ACD414FE2EF969A1CF /* PBXTargetDependency */ = {
+		0A90BED537E5A92A496A33DA0AFD3410 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = iComponentsSDK;
-			target = 79592F7F6AFCC433D5B7E15424D8D570 /* iComponentsSDK */;
-			targetProxy = 7779101FE6C973CFCC5EAA39364190F7 /* PBXContainerItemProxy */;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 24F7FB42FCF10B3A9CA4392BF29BB4F9 /* PBXContainerItemProxy */;
 		};
-		346A4B823C5416F471BFA63B4372FB24 /* PBXTargetDependency */ = {
+		0DD7BA32985C7F205339913E7DEA13F9 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = iAdsCoreSDK;
-			target = F4CA3867DE33786E1D530A58822E1FE1 /* iAdsCoreSDK */;
-			targetProxy = 9C3ABAB5A7C2490FF9366F85C80B991D /* PBXContainerItemProxy */;
+			name = Adjust;
+			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
+			targetProxy = 37A09B6FBFE4CC1E28847C1CAF676065 /* PBXContainerItemProxy */;
 		};
-		379B2B79A38A1576C76BD67B22EB0F93 /* PBXTargetDependency */ = {
+		0E7B6402A61D58A53620818D475836D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-iAdsAdmobSDK_Example";
 			target = 01BDB0660426FE2A7E5F1E089FE83B19 /* Pods-iAdsAdmobSDK_Example */;
-			targetProxy = B3B40F56EA9A72BAE71953A2360D149B /* PBXContainerItemProxy */;
+			targetProxy = A88B7B460C9260EB9F8DF4034CE4D8ED /* PBXContainerItemProxy */;
 		};
-		3948F815AF2AE954A2300F5634A7F3E4 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUserMessagingPlatform;
-			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
-			targetProxy = A6F2B07CE70B6CC2D4BC38ADE504E5F3 /* PBXContainerItemProxy */;
-		};
-		402C21B500C781ABA8C0589DE659EFCA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iReadFileConfigSDK;
-			target = 57CE8CD2A83F96AA46F0581B9E9EAA03 /* iReadFileConfigSDK */;
-			targetProxy = 33A8C3F5259208BEC8ECC42805FE7D88 /* PBXContainerItemProxy */;
-		};
-		42470970822DF248DC5DE2E3D58025C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
-			target = 63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
-			targetProxy = 7F97B325636B5073F6B154D3654A4F92 /* PBXContainerItemProxy */;
-		};
-		5E711D85BB364AF91C4959F649F8BAE7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Adjust;
-			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
-			targetProxy = A59431576EBAA31A1B672431CB062C59 /* PBXContainerItemProxy */;
-		};
-		6DC1DA1DA3A7A870034D64EB9392EEEE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK";
-			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
-			targetProxy = E0C5771FCFD00A229338E2ADA042BBE8 /* PBXContainerItemProxy */;
-		};
-		7D4B3C866D62A70022E9BAC6A4FAE794 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Adjust;
-			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
-			targetProxy = EDC0AEB915A14C7174FA425396D4D2B4 /* PBXContainerItemProxy */;
-		};
-		81542E2A79B53553EB2F3608C6C7A5DE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iAdsAdmobSDK;
-			target = B767504D434F16D4D6DBE7C3876B40A9 /* iAdsAdmobSDK */;
-			targetProxy = 40B713F17A7EB00DE07BF8A188B3FFA7 /* PBXContainerItemProxy */;
-		};
-		82D2AA39C9FD60BCAC443B92F1B5F1CC /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = GoogleUserMessagingPlatform;
-			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
-			targetProxy = B14EE903BB3A2612715DF98B3056C191 /* PBXContainerItemProxy */;
-		};
-		8D6E6189BC254E827D710C653E641071 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK";
-			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
-			targetProxy = 66F7EF24E6B6FBB620C8D00349054782 /* PBXContainerItemProxy */;
-		};
-		982941831F7B9AFE92BF830CE61B9B53 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iTrackingSDK;
-			target = 35255B272EA6381B5AC266D2307D74B6 /* iTrackingSDK */;
-			targetProxy = 51EDE744C4A85AE0F2DAB6A5080D0593 /* PBXContainerItemProxy */;
-		};
-		9C16370F902428916B7E5582E0B9E768 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = iComponentsSDK;
-			target = 79592F7F6AFCC433D5B7E15424D8D570 /* iComponentsSDK */;
-			targetProxy = 5F231A376BF429D2B8B7403608C95B88 /* PBXContainerItemProxy */;
-		};
-		AD9CB387788AFF581045151B48B03DD9 /* PBXTargetDependency */ = {
+		10D117B98707F32AE570E5D07E66E001 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Adjust-Adjust";
 			target = 471352CEDDB3183F0E470F770197C032 /* Adjust-Adjust */;
-			targetProxy = 4C5AD688A2A6D80DADA40DBAA86ADA9D /* PBXContainerItemProxy */;
+			targetProxy = 2BE41E3D31582F22F7A068DC91C840A5 /* PBXContainerItemProxy */;
 		};
-		DE2F9B76D3A9CE147B50A4ABC6743DC8 /* PBXTargetDependency */ = {
+		127B5B4BF3FC42426E33F657D1F92589 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iComponentsSDK;
+			target = 79592F7F6AFCC433D5B7E15424D8D570 /* iComponentsSDK */;
+			targetProxy = DD6B11286FF1EC4C92648CD91418BF7F /* PBXContainerItemProxy */;
+		};
+		2109EFAFF4C54290840D3CB2600392BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iAdsCoreSDK;
 			target = F4CA3867DE33786E1D530A58822E1FE1 /* iAdsCoreSDK */;
-			targetProxy = 1E8D4C0F9A501F4D2203FC5CC6FE9A2E /* PBXContainerItemProxy */;
+			targetProxy = 65E4CB92981A5B09359F17D7F7AEA0E6 /* PBXContainerItemProxy */;
 		};
-		DE91B30FED69B8C0764F25A920C49667 /* PBXTargetDependency */ = {
+		2127906AB94F314EBD3208A1845B6975 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Adjust;
+			target = 7111F362EA0D14BECD8B96EA1EAA5F79 /* Adjust */;
+			targetProxy = 3587D68B50678AF7FECF439051B975F4 /* PBXContainerItemProxy */;
+		};
+		21A97EA736D80DA7A4F1BD5760B959B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUserMessagingPlatform;
+			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
+			targetProxy = 83C3DA685FAE42668F1FA5F4F91821A5 /* PBXContainerItemProxy */;
+		};
+		365FC21C97AA9F8DA399998219C16FD9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK";
+			target = FEA3B3A570634836C0457F3D7CEF1699 /* Google-Mobile-Ads-SDK */;
+			targetProxy = 5AACA197B738D07D6F34BB9F5931FAD2 /* PBXContainerItemProxy */;
+		};
+		4DFA689FD6E3B81BC40E06E56216E235 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iReadFileConfigSDK;
 			target = 57CE8CD2A83F96AA46F0581B9E9EAA03 /* iReadFileConfigSDK */;
-			targetProxy = 8869C7B74DE1AFC11B3D40114E01E88C /* PBXContainerItemProxy */;
+			targetProxy = 83CB2BF38145496A30276DED69C68FAA /* PBXContainerItemProxy */;
 		};
-		EA3243D3D65CA70329AB15C7D6D181F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
-			target = 36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
-			targetProxy = 89A44FDF0BBB55B9AD95A2D95EED0FB8 /* PBXContainerItemProxy */;
-		};
-		FFD9A47DCC6DADD755AA5CFFDAF1CB35 /* PBXTargetDependency */ = {
+		68C84CA1BE1B529D17BC8BB3132CB844 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = iTrackingSDK;
 			target = 35255B272EA6381B5AC266D2307D74B6 /* iTrackingSDK */;
-			targetProxy = 94C981126EFBE47A51F28C8A03B7889D /* PBXContainerItemProxy */;
+			targetProxy = CAB24BEDEAFE1325A25A5A1F62BAE138 /* PBXContainerItemProxy */;
+		};
+		76DFCA1B3C5B2FB34CC73A0F88C3F92E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources";
+			target = 63A7C675C13F87669AF56006D943998B /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */;
+			targetProxy = C747801F138998727ACF29730D5D95E0 /* PBXContainerItemProxy */;
+		};
+		7F8588F920DB36889CE777D384B4DEB1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iAdsAdmobSDK;
+			target = B767504D434F16D4D6DBE7C3876B40A9 /* iAdsAdmobSDK */;
+			targetProxy = 9D05A2AA8C81B0F86F54AEC0A1B4AD97 /* PBXContainerItemProxy */;
+		};
+		9412C560E8A19CF8DE5E910A85E3F599 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iReadFileConfigSDK;
+			target = 57CE8CD2A83F96AA46F0581B9E9EAA03 /* iReadFileConfigSDK */;
+			targetProxy = 87747FF1CC5FDCE16F0C97D807CE2C86 /* PBXContainerItemProxy */;
+		};
+		A4D55DE30E124119BE1753954F7C4EAE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iAdsCoreSDK;
+			target = F4CA3867DE33786E1D530A58822E1FE1 /* iAdsCoreSDK */;
+			targetProxy = D9E4F2550D3270B7471C0288F69F18AE /* PBXContainerItemProxy */;
+		};
+		BE70BDAE95B2B2D3F972452D69A96D8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Google-Mobile-Ads-SDK-GoogleMobileAdsResources";
+			target = 36FD0958A0EC4A0FCF599E9B22719B03 /* Google-Mobile-Ads-SDK-GoogleMobileAdsResources */;
+			targetProxy = CB05A9CEF3CC6F9372D57512DC92C068 /* PBXContainerItemProxy */;
+		};
+		DFF1231FD1EF8E4AB962343D3D6CAC6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iTrackingSDK;
+			target = 35255B272EA6381B5AC266D2307D74B6 /* iTrackingSDK */;
+			targetProxy = 9C85B059FF52AECD54FB114AB22980BE /* PBXContainerItemProxy */;
+		};
+		E1952E0330249765B7FA49292DD613F9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleUserMessagingPlatform;
+			target = 458B188365A307B3C128ABF524D1A3E3 /* GoogleUserMessagingPlatform */;
+			targetProxy = 80DE5946C93660E428EEBECA94126C4B /* PBXContainerItemProxy */;
+		};
+		FD4FAD9B00889B215A9CC41F4BBCD1D2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = iComponentsSDK;
+			target = 79592F7F6AFCC433D5B7E15424D8D570 /* iComponentsSDK */;
+			targetProxy = 8327D5BADF8144BB7AD114062B718F20 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0A55AABFDF03788856260446B904A61C /* Release */ = {
+		0FABAD6AC642B97D0D1C3F52B05F6E18 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4166756F702825784A60007491BA5D3A /* Google-Mobile-Ads-SDK.release.xcconfig */;
+			baseConfigurationReference = 95549898995684397FA861F86C561D9E /* GoogleUserMessagingPlatform.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
-				IBSC_MODULE = Google_Mobile_Ads_SDK;
-				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
+				IBSC_MODULE = GoogleUserMessagingPlatform;
+				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = GoogleMobileAdsResources;
+				PRODUCT_NAME = UserMessagingPlatformResources;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		0F5CECBD0D141E8F3F200B951C81F973 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95549898995684397FA861F86C561D9E /* GoogleUserMessagingPlatform.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		1997A80EA9EB4BF3ECAB46DF44849BB2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7FBACFB32746565D09596B4F84C17F0 /* iTrackingSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -1881,9 +1862,9 @@
 			};
 			name = Release;
 		};
-		1E191927D27EAE82D7461B9F1B7E00E4 /* Release */ = {
+		1A3446E1DDAF3494796F4140817587E8 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7F436845A7480C02BD34C1FD35438FD7 /* iReadFileConfigSDK.release.xcconfig */;
+			baseConfigurationReference = 1C2C4844A0A736AE95022694057950B6 /* iComponentsSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1897,26 +1878,43 @@
 			};
 			name = Release;
 		};
-		36C85BEAE025C32960C6D39124FE5530 /* Debug */ = {
+		30CD5591D94EE05156B52E3919356912 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 95549898995684397FA861F86C561D9E /* GoogleUserMessagingPlatform.debug.xcconfig */;
+			baseConfigurationReference = 68527BED20B8B50D9FBE6635A7A10B93 /* iAdsAdmobSDK.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
-				IBSC_MODULE = GoogleUserMessagingPlatform;
-				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = UserMessagingPlatformResources;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
+				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
+				PRODUCT_NAME = iAdsAdmobSDK;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		3A6E2439ACD8553C2E048E621824CEFD /* Debug */ = {
+		3AF66999B19F767D33B6FE2F7D925520 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCBB664993A14C0BE4604EDE514CAC9C /* iReadFileConfigSDK.debug.xcconfig */;
+			baseConfigurationReference = EFA5A92AD3E3E50CF1426A7F47362505 /* iAdsCoreSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -1926,42 +1924,25 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		42463A585D7A7D041A08EBE4EFC103EE /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 166041978B974349CB5B1363B1F8AC88 /* Adjust.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adjust";
-				IBSC_MODULE = Adjust;
-				INFOPLIST_FILE = "Target Support Files/Adjust/ResourceBundle-Adjust-Adjust-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Adjust;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		43B838BB19B482E32E333BB11381E684 /* Debug */ = {
+		431F8043E586A03CDE2900A3195D276C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 33A67A436C7DF9CFC53F281FD2B59EFD /* Adjust.debug.xcconfig */;
+			baseConfigurationReference = CC997E02BD9796289A8587C44D1C8B92 /* iTrackingSDK.release.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adjust";
-				IBSC_MODULE = Adjust;
-				INFOPLIST_FILE = "Target Support Files/Adjust/ResourceBundle-Adjust-Adjust-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				PRODUCT_NAME = Adjust;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+				VALIDATE_PRODUCT = YES;
 			};
-			name = Debug;
+			name = Release;
 		};
 		4BC7450F9457737EE3E637BA155B56F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -2029,6 +2010,23 @@
 			};
 			name = Debug;
 		};
+		5E126FED2CBF6D54C929D61A0DF8E31D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F6692DB644A22F269E2DF09F5486FB2 /* GoogleUserMessagingPlatform.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
+				IBSC_MODULE = GoogleUserMessagingPlatform;
+				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = UserMessagingPlatformResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
 		5F1D3BC1C20B2B5ECC1E7513FB9B0867 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33A67A436C7DF9CFC53F281FD2B59EFD /* Adjust.debug.xcconfig */;
@@ -2060,7 +2058,74 @@
 			};
 			name = Debug;
 		};
-		695755AC6BCD9803773EAF7D08FBF7D2 /* Release */ = {
+		6A5141663B3D99BA902BEC96280BE8AC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 06DA21F5BD1F362506423A22043A616C /* iAdsAdmobSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
+				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
+				PRODUCT_NAME = iAdsAdmobSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6D63A46103569DC6465A9758E1451E6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4166756F702825784A60007491BA5D3A /* Google-Mobile-Ads-SDK.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
+				IBSC_MODULE = Google_Mobile_Ads_SDK;
+				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = GoogleMobileAdsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		78C76F2E5BCF9B3616B7BA2DB1D862CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A67A436C7DF9CFC53F281FD2B59EFD /* Adjust.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adjust";
+				IBSC_MODULE = Adjust;
+				INFOPLIST_FILE = "Target Support Files/Adjust/ResourceBundle-Adjust-Adjust-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Adjust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		831F0EE6C69B3ED5B6764E7BBEBB1E8C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5F6692DB644A22F269E2DF09F5486FB2 /* GoogleUserMessagingPlatform.release.xcconfig */;
 			buildSettings = {
@@ -2075,106 +2140,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		7065BDDD4A115A9E0D1367F20076E63D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 447D4A7353262A776F88E5C60468DBCA /* Google-Mobile-Ads-SDK.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
-				IBSC_MODULE = Google_Mobile_Ads_SDK;
-				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = GoogleMobileAdsResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		75574B83D6976A696B06C5C708E3C974 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = D391EDD7024962CDBC32CA930ABB08AA /* iAdsAdmobSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
-				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
-				PRODUCT_NAME = iAdsAdmobSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		7F0683D9A859344CADF1DA5D23981E7F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CC997E02BD9796289A8587C44D1C8B92 /* iTrackingSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		89A9D5A02483C74F2FBD90A2E6227034 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = FAC03F5982330CF0E6298DDC1AAAEEA2 /* iAdsAdmobSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
-				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
-				PRODUCT_NAME = iAdsAdmobSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		8B5A46FF8D3C1289CDEE3BAFACABCD2A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2231,15 +2196,16 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
 		};
-		AA45C0B677D1FBB2FF504C7E3A408098 /* Debug */ = {
+		964672DC9FCD6FC4CB468371588323E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B99E4D1655ADE71F82635E7D09376392 /* iComponentsSDK.debug.xcconfig */;
+			baseConfigurationReference = CCBB664993A14C0BE4604EDE514CAC9C /* iReadFileConfigSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -2252,7 +2218,7 @@
 			};
 			name = Debug;
 		};
-		B118A727DED416F7A80EF55DD03C5FF3 /* Debug */ = {
+		982958B694828847BADF15BF86ECF860 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1E37F1C268C7FD41A77DE90F584A7991 /* iAdsCoreSDK.debug.xcconfig */;
 			buildSettings = {
@@ -2266,6 +2232,23 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
+		};
+		B0EC5A7C28E331930B366A515A5B3019 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 166041978B974349CB5B1363B1F8AC88 /* Adjust.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Adjust";
+				IBSC_MODULE = Adjust;
+				INFOPLIST_FILE = "Target Support Files/Adjust/ResourceBundle-Adjust-Adjust-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				PRODUCT_NAME = Adjust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
 		};
 		BF715EF70FD09819DCDC6FE393123E68 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2299,6 +2282,53 @@
 			};
 			name = Release;
 		};
+		C0B5045C688AA3ED6BC565FBFA851554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 447D4A7353262A776F88E5C60468DBCA /* Google-Mobile-Ads-SDK.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGNING_ALLOWED = NO;
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Google-Mobile-Ads-SDK";
+				IBSC_MODULE = Google_Mobile_Ads_SDK;
+				INFOPLIST_FILE = "Target Support Files/Google-Mobile-Ads-SDK/ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				PRODUCT_NAME = GoogleMobileAdsResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		C134A631FA343963892C65CDAA0F1371 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7FBACFB32746565D09596B4F84C17F0 /* iTrackingSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C161DBA86C238E17E1538AC7192BBA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B99E4D1655ADE71F82635E7D09376392 /* iComponentsSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 		C2A0257826E19C41B39C550E869928BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 447D4A7353262A776F88E5C60468DBCA /* Google-Mobile-Ads-SDK.debug.xcconfig */;
@@ -2331,22 +2361,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		CD6D14CF79E7FBFDAA8CB5A3481701E9 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C2C4844A0A736AE95022694057950B6 /* iComponentsSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
 		};
 		CE5E2375530AF20F94960262D748DF9A /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -2382,20 +2396,34 @@
 			};
 			name = Release;
 		};
-		DAC5B7E2102B43FE9533BD188172B3D0 /* Release */ = {
+		D1CC8AC6C521E7FBA6D4E9CEDC6D0B88 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F6692DB644A22F269E2DF09F5486FB2 /* GoogleUserMessagingPlatform.release.xcconfig */;
+			baseConfigurationReference = 95549898995684397FA861F86C561D9E /* GoogleUserMessagingPlatform.debug.xcconfig */;
 			buildSettings = {
-				CODE_SIGNING_ALLOWED = NO;
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/GoogleUserMessagingPlatform";
-				IBSC_MODULE = GoogleUserMessagingPlatform;
-				INFOPLIST_FILE = "Target Support Files/GoogleUserMessagingPlatform/ResourceBundle-UserMessagingPlatformResources-GoogleUserMessagingPlatform-Info.plist";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
-				PRODUCT_NAME = UserMessagingPlatformResources;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		DBC6AF401509A8FE85B2C25FA98C4395 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F436845A7480C02BD34C1FD35438FD7 /* iReadFileConfigSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -2468,22 +2496,6 @@
 			};
 			name = Release;
 		};
-		F5700C4B75CD28E1A70EB4798E43CF52 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFA5A92AD3E3E50CF1426A7F47362505 /* iAdsCoreSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		F9F4D08AE1316040A531D1DBE5A7D191 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1A23604EE7D0CD17B91843A185DB3239 /* Pods-iAdsAdmobSDK_Tests.debug.xcconfig */;
@@ -2521,24 +2533,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00EF1C379DA4A3526CF752544FFE5D95 /* Build configuration list for PBXNativeTarget "iAdsAdmobSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				89A9D5A02483C74F2FBD90A2E6227034 /* Debug */,
-				75574B83D6976A696B06C5C708E3C974 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		0EDD9E87049C33694A5E66CB8C24FDF1 /* Build configuration list for PBXAggregateTarget "iTrackingSDK" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1997A80EA9EB4BF3ECAB46DF44849BB2 /* Debug */,
-				7F0683D9A859344CADF1DA5D23981E7F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		12BE28A1459C5194B4CD361C64BFF521 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -2548,20 +2542,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		27FEEE6F40A7A4FDBC46EAD0C7B8B088 /* Build configuration list for PBXAggregateTarget "iAdsCoreSDK" */ = {
+		3940328B9A295FADBD5D2EEE99095B5D /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				B118A727DED416F7A80EF55DD03C5FF3 /* Debug */,
-				F5700C4B75CD28E1A70EB4798E43CF52 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		34042DF238416C1581CFACCAE43B2F92 /* Build configuration list for PBXNativeTarget "Google-Mobile-Ads-SDK-GoogleMobileAdsResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				7065BDDD4A115A9E0D1367F20076E63D /* Debug */,
-				0A55AABFDF03788856260446B904A61C /* Release */,
+				C0B5045C688AA3ED6BC565FBFA851554 /* Debug */,
+				6D63A46103569DC6465A9758E1451E6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2575,29 +2560,29 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4D470DCAE5FA0F6F071CD30575D217E4 /* Build configuration list for PBXNativeTarget "Adjust-Adjust" */ = {
+		4D5AA8EE5800C1A0037522C58AF51FA2 /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				43B838BB19B482E32E333BB11381E684 /* Debug */,
-				42463A585D7A7D041A08EBE4EFC103EE /* Release */,
+				0FABAD6AC642B97D0D1C3F52B05F6E18 /* Debug */,
+				5E126FED2CBF6D54C929D61A0DF8E31D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83668896452AE996941745D76D9987E2 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */ = {
+		8600F8DC6C574F6A276D030F9312B998 /* Build configuration list for PBXAggregateTarget "iTrackingSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				0F5CECBD0D141E8F3F200B951C81F973 /* Debug */,
-				695755AC6BCD9803773EAF7D08FBF7D2 /* Release */,
+				C134A631FA343963892C65CDAA0F1371 /* Debug */,
+				431F8043E586A03CDE2900A3195D276C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		91D14C761BE2DE145A3130DE643F06AA /* Build configuration list for PBXAggregateTarget "iReadFileConfigSDK" */ = {
+		8F30905A3D8F2CF3ACE553A4EDA117CE /* Build configuration list for PBXNativeTarget "iAdsAdmobSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3A6E2439ACD8553C2E048E621824CEFD /* Debug */,
-				1E191927D27EAE82D7461B9F1B7E00E4 /* Release */,
+				6A5141663B3D99BA902BEC96280BE8AC /* Debug */,
+				30CD5591D94EE05156B52E3919356912 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2611,20 +2596,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		A19DFBA326FE8EDFA3447DCF700994CE /* Build configuration list for PBXNativeTarget "Adjust-Adjust" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				78C76F2E5BCF9B3616B7BA2DB1D862CE /* Debug */,
+				B0EC5A7C28E331930B366A515A5B3019 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDFAD37B7E039CE6C53BEA65F41CA87F /* Build configuration list for PBXAggregateTarget "iAdsCoreSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				982958B694828847BADF15BF86ECF860 /* Debug */,
+				3AF66999B19F767D33B6FE2F7D925520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C3FED722D2F4A693661B6E1FA9EECAD0 /* Build configuration list for PBXAggregateTarget "iComponentsSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C161DBA86C238E17E1538AC7192BBA36 /* Debug */,
+				1A3446E1DDAF3494796F4140817587E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		DB44D60C2F224F2B5EB61C3BC5F0F6C4 /* Build configuration list for PBXNativeTarget "Adjust" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				5F1D3BC1C20B2B5ECC1E7513FB9B0867 /* Debug */,
 				BF715EF70FD09819DCDC6FE393123E68 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		EB2AD5118A74CBAB405F37DB0CF6F6BC /* Build configuration list for PBXNativeTarget "GoogleUserMessagingPlatform-UserMessagingPlatformResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				36C85BEAE025C32960C6D39124FE5530 /* Debug */,
-				DAC5B7E2102B43FE9533BD188172B3D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -2638,11 +2641,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FDFA1BDE1366E9188DC8AACD48E02120 /* Build configuration list for PBXAggregateTarget "iComponentsSDK" */ = {
+		F915232B2C9B8FCF6F621B0C80C56F62 /* Build configuration list for PBXAggregateTarget "iReadFileConfigSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA45C0B677D1FBB2FF504C7E3A408098 /* Debug */,
-				CD6D14CF79E7FBFDAA8CB5A3481701E9 /* Release */,
+				964672DC9FCD6FC4CB468371588323E6 /* Debug */,
+				DBC6AF401509A8FE85B2C25FA98C4395 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FB88905752F3058F216EB5C3461492E6 /* Build configuration list for PBXAggregateTarget "GoogleUserMessagingPlatform" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D1CC8AC6C521E7FBA6D4E9CEDC6D0B88 /* Debug */,
+				831F0EE6C69B3ED5B6764E7BBEBB1E8C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
