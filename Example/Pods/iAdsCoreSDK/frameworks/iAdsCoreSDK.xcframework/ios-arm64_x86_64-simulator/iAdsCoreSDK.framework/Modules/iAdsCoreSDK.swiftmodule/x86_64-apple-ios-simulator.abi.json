@@ -1511,7 +1511,7 @@
           {
             "kind": "Function",
             "name": "loadAds",
-            "printedName": "loadAds(vc:adsId:completion:)",
+            "printedName": "loadAds(vc:collapsible:isMrec:adsId:completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -1523,6 +1523,34 @@
                 "name": "UIViewController",
                 "printedName": "UIKit.UIViewController",
                 "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.Bool?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "usr": "s:Sq"
               },
               {
                 "kind": "TypeNominal",
@@ -1563,8 +1591,8 @@
               }
             ],
             "declKind": "Func",
-            "usr": "s:11iAdsCoreSDK01iabC15_BannerProtocolP04loadA02vc5adsId10completionySo16UIViewControllerC_SSys6ResultOyyts5Error_pGctF",
-            "mangledName": "$s11iAdsCoreSDK01iabC15_BannerProtocolP04loadA02vc5adsId10completionySo16UIViewControllerC_SSys6ResultOyyts5Error_pGctF",
+            "usr": "s:11iAdsCoreSDK01iabC15_BannerProtocolP04loadA02vc11collapsible6isMrec5adsId10completionySo16UIViewControllerC_SSSgSbSgSSys6ResultOyyts5Error_pGctF",
+            "mangledName": "$s11iAdsCoreSDK01iabC15_BannerProtocolP04loadA02vc11collapsible6isMrec5adsId10completionySo16UIViewControllerC_SSSgSbSgSSys6ResultOyyts5Error_pGctF",
             "moduleName": "iAdsCoreSDK",
             "genericSig": "<τ_0_0 where τ_0_0 : iAdsCoreSDK.iAdsCoreSDK_BannerProtocol>",
             "sugared_genericSig": "<Self where Self : iAdsCoreSDK.iAdsCoreSDK_BannerProtocol>",

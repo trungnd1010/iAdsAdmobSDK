@@ -1,6 +1,6 @@
 // swift-interface-format-version: 1.0
 // swift-compiler-version: Apple Swift version 5.10 (swiftlang-5.10.0.13 clang-1500.3.9.4)
-// swift-module-flags: -target arm64-apple-ios17.5-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iAdsCoreSDK
+// swift-module-flags: -target arm64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name iAdsCoreSDK
 import Foundation
 import Swift
 import UIKit
@@ -44,7 +44,7 @@ public enum iAdsCoreSDK_Error : Swift.Error {
 public protocol iAdsCoreSDK_BannerProtocol {
   var isLoading: Swift.Bool { get set }
   var isHasAds: Swift.Bool { get set }
-  func loadAds(vc: UIKit.UIViewController, adsId: Swift.String, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
+  func loadAds(vc: UIKit.UIViewController, collapsible: Swift.String?, isMrec: Swift.Bool?, adsId: Swift.String, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   func showAds(containerView: UIKit.UIView, placement: Swift.String, priority: Swift.Int, completion: @escaping (Swift.Result<Swift.Void, any Swift.Error>) -> Swift.Void)
   static func make() -> any iAdsCoreSDK.iAdsCoreSDK_BannerProtocol
 }

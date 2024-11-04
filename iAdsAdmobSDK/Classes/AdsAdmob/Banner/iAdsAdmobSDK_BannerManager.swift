@@ -1,5 +1,5 @@
 //
-//  MonetCoreSDK_Dependency_AdsNativeManagerProtocolAdsNativeManager.swift
+//  MonetCoreSDK_Dependency_AdsBannerManagerProtocolAdsBannerManager.swift
 //  ExampleCoreSDK
 //
 //  Created by Trung Nguyễn on 14/11/2023.
@@ -10,7 +10,7 @@ import iAdsCoreSDK
 import iComponentsSDK
 
 
-public class iAdsAdmobSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
+public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
     
     private override init() {}
     
@@ -22,22 +22,22 @@ public class iAdsAdmobSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
     
     public var isHasAds: Bool = false
 
-    private var nativeAdLoader: GADAdLoader? = nil
-    
     private var placement: String = ""
     private var priority: String = ""
     private var adNetwork: String = "AdMob"
     private var adsId: String = ""
     
-    private var nativeAd: GADNativeAd? = nil
+    private var bannerView: GADBannerView? = nil
     
     public static
-    func make() -> iAdsCoreSDK_NativeProtocol {
-        return iAdsAdmobSDK_NativeManager()
+    func make() -> iAdsCoreSDK_BannerProtocol {
+        return iAdsAdmobSDK_BannerManager()
     }
     
     //  "ca-app-pub-3940256099942544/4411468910"
     public func loadAds(vc: UIViewController,
+                        collapsible: String?,
+                        isMrec: Bool?,
                         adsId: String,
                         completion: @escaping (Result<Void, Error>) -> Void) {
         if self.isLoading {
@@ -48,18 +48,22 @@ public class iAdsAdmobSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
         self.isLoading = true
         self.adsId = adsId
         
-        nativeAdLoader = GADAdLoader(
-            adUnitID: adsId,
-            rootViewController: vc,
-            adTypes: [.native],
-            options: nil)
-        nativeAdLoader?.delegate = self
-        nativeAdLoader?.load(GADRequest())
+        bannerView?.adSize = GADAdSizeBanner
+        bannerView?.adUnitID = adsId
+        bannerView?.delegate = self
+        bannerView?.rootViewController = vc
+        
+        let request = GADRequest()
+        if let collapsible = collapsible {
+            let extras = GADExtras()
+            extras.additionalParameters = ["collapsible" : collapsible]
+            request.register(extras)
+        }
+        
+        bannerView?.load(request)
     }
     
     public func showAds(containerView: UIView,
-                        nativeAdmobView: UIView?,
-                        nativeMaxView: UIView? = nil,
                         placement    : String,
                         priority     : Int,
                         completion   : @escaping (Result<Void, Error>) -> Void) {
@@ -67,23 +71,19 @@ public class iAdsAdmobSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
         self.priority = "\(priority)"
         self.placement = placement
         
-        guard let nativeData = self.nativeAd,
-            let nativeView = nativeAdmobView as? BaseGADNativeAdView else {
+        guard let bannerView = self.bannerView else {
             completion(.failure(iAdsAdmobSDK_Error.noAdsToShow))
             return
         }
         
         containerView.iComponentsSDK_removeAllSubviews()
-        nativeView.configAd(nativeAd: nativeData)
-        containerView.iComponentsSDK_addSubView(subView: nativeView)
+        containerView.iComponentsSDK_addSubView(subView: bannerView)
         completion(.success(()))
     }
 }
 
-extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelegate, GADNativeAdDelegate  {
-    public func adLoader(_ adLoader: GADAdLoader, didReceive nativeAd: GADNativeAd) {
-        
-       
+extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
+    public func bannerViewDidReceiveAd(_ bannerView: GADBannerView) {
         isLoading = false
         iAdsCoreSDK_AdTrack().tracking(placement: "",
                                        ad_status: .loaded,
@@ -91,34 +91,34 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        ad_action: .load,
                                        script_name: .load_xx,
                                        ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
+                                       ad_format: .Banner,
+                                       sub_ad_format: .banner,
                                        error_code: "",
                                        message: "",
                                        time: "",
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
-        self.nativeAd = nativeAd
-        self.nativeAd?.delegate = self
+        self.bannerView = bannerView
+        self.bannerView?.delegate = self
         
-        nativeAd.paidEventHandler = { [weak self] adValue in
+        bannerView.paidEventHandler = { [weak self] adValue in
             guard let self else { return }
-            self.adNetwork = nativeAd.responseInfo.loadedAdNetworkResponseInfo?.adSourceName ?? "unknown"
+            self.adNetwork = bannerView.responseInfo?.loadedAdNetworkResponseInfo?.adSourceName ?? "unknown"
             iAdsCoreSDK_PaidAd().tracking(ad_platform: .ADMOB,
                                           currency: adValue.currencyCode,
                                           value: Double(truncating: adValue.value),
                                           ad_unit_name: adsId,
                                           ad_network: adNetwork,
-                                          ad_format: .Native,
-                                          sub_ad_format: .native,
+                                          ad_format: .Banner,
+                                          sub_ad_format: .banner,
                                           placement: placement,
                                           ad_id: "")
         }
         completionLoad?(.success(()))
     }
     
-    public func adLoader(_ adLoader: GADAdLoader, didFailToReceiveAdWithError error: any Error) {
+    public func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: any Error) {
         isLoading = false
         iAdsCoreSDK_AdTrack().tracking(placement: "",
                                        ad_status: .load_failed,
@@ -126,8 +126,8 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        ad_action: .load,
                                        script_name: .load_xx,
                                        ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
+                                       ad_format: .Banner,
+                                       sub_ad_format: .banner,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -136,15 +136,15 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
         completionLoad?(.failure(error))
     }
     
-    public func nativeAdDidRecordClick(_ nativeAd: GADNativeAd) {
+    public func bannerViewDidRecordClick(_ bannerView: GADBannerView) {
         iAdsCoreSDK_AdTrack().tracking(placement: "",
                                        ad_status: .clicked,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
+                                       ad_format: .Banner,
+                                       sub_ad_format: .banner,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -152,15 +152,15 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        recall_ad: .no)
     }
     
-    public func nativeAdDidRecordImpression(_ nativeAd: GADNativeAd) {
+    public func bannerViewDidRecordImpression(_ bannerView: GADBannerView) {
         iAdsCoreSDK_AdTrack().tracking(placement: "",
                                        ad_status: .impression,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
+                                       ad_format: .Banner,
+                                       sub_ad_format: .banner,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -168,15 +168,15 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        recall_ad: .no)
     }
     
-    public func nativeAdWillPresentScreen(_ nativeAd: GADNativeAd) {
+    public func bannerViewWillPresentScreen(_ bannerView: GADBannerView) {
         iAdsCoreSDK_AdTrack().tracking(placement: "",
                                        ad_status: .showed,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
+                                       ad_format: .Banner,
+                                       sub_ad_format: .banner,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -184,15 +184,15 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        recall_ad: .no)
     }
     
-    public func nativeAdDidDismissScreen(_ nativeAd: GADNativeAd) {
+    public func bannerViewDidDismissScreen(_ bannerView: GADBannerView) {
         iAdsCoreSDK_AdTrack().tracking(placement: "",
                                        ad_status: .closed,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
+                                       ad_format: .Banner,
+                                       sub_ad_format: .banner,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -201,70 +201,3 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
     }
 }
 
-@objc open
-class BaseGADNativeAdView: GADNativeAdView {
-    public override func awakeFromNib() {
-        super.awakeFromNib()
-        
-    }
-    
-    override public init(frame: CGRect) {
-        super.init(frame: frame)
-        _loadViewFromNib()
-    }
-
-    required public init?(coder: NSCoder) {
-        super.init(coder: coder)
-        _loadViewFromNib()
-    }
-    
-    func configAd(nativeAd: GADNativeAd) {
-        (self.headlineView as? UILabel)?.text = nativeAd.headline
-        //        (self.headlineView as? UILabel)?.adjustsFontSizeToFitWidth = true
-        // These assets are not guaranteed to be present. Check that they are before
-        // showing or hiding them.
-        (self.bodyView as? UILabel)?.text   = nativeAd.body
-        //        (self.bodyView as? UILabel)?.adjustsFontSizeToFitWidth = true
-        self.bodyView?.isHidden = nativeAd.body == nil
-        (self.callToActionView as? UIButton)?.setTitle(nativeAd.callToAction, for: .normal)
-        self.callToActionView?.isHidden = nativeAd.callToAction == nil
-        (self.iconView as? UIImageView)?.image = nativeAd.icon?.image
-        self.iconView?.isHidden = nativeAd.icon == nil
-        (self.starRatingView as? UIImageView)?.image = imageOfStars(from: nativeAd.starRating)
-        self.starRatingView?.isHidden = nativeAd.starRating == nil
-        (self.advertiserView as? UILabel)?.text = nativeAd.advertiser
-        self.advertiserView?.isHidden = nativeAd.advertiser == nil
-        self.callToActionView?.isUserInteractionEnabled = false
-        self.nativeAd = nativeAd
-    }
-    
-    func _loadViewFromNib() {
-        let nib = UINib(nibName: iComponentsSDK_fullClassName, bundle: .main)
-        guard let nibView = nib.instantiate(withOwner: self, options: nil).first as? UIView else { return }
-        addSubview(nibView)
-        nibView.translatesAutoresizingMaskIntoConstraints = false
-        nibView.topAnchor.constraint(equalTo: topAnchor).isActive = true
-        nibView.bottomAnchor.constraint(equalTo: bottomAnchor).isActive = true
-        nibView.leadingAnchor.constraint(equalTo: leadingAnchor).isActive = true
-        nibView.trailingAnchor.constraint(equalTo: trailingAnchor).isActive = true
-        sendSubview(toBack: nibView)
-    }
-    
-    
-    func imageOfStars(from starRating: NSDecimalNumber?) -> UIImage? {
-        guard let rating = starRating?.doubleValue else {
-            return nil
-        }
-        if rating >= 5 {
-            return UIImage(named: "stars_5")
-        } else if rating >= 4.5 {
-            return UIImage(named: "stars_4_5")
-        } else if rating >= 4 {
-            return UIImage(named: "stars_4")
-        } else if rating >= 3.5 {
-            return UIImage(named: "stars_3_5")
-        } else {
-            return nil
-        }
-    }
-}
