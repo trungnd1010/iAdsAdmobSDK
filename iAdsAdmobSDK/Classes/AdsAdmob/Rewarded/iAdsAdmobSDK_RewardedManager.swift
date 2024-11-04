@@ -216,7 +216,7 @@ extension iAdsAdmobSDK_RewardedManager: GADFullScreenContentDelegate {
         if didEarn {
             completionShow?(.success(()))
         } else {
-            completionShow?(.failure(iAdsAdmobSDK_Error.closeNoReward))
+            completionShow?(.failure(iAdsCoreSDK_Error.closeNoReward))
         }
     }
 }

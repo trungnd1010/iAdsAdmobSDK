@@ -26,7 +26,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
     
     private var placement: String = ""
     private var priority: String = ""
-    private var adNetwork: String = "AdMob"
+    private var adNetwork: String = "AdGam"
     private var adsId: String = ""
     
     

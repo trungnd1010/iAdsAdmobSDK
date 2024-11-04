@@ -21,11 +21,11 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
     
     public var isHasAds: Bool = false
     
-    private var rewardedAd: GADRewardedInterstitialAd? = nil
+    private var rewardedAd: GADRewardedAd? = nil
     
     private var placement: String = ""
     private var priority: String = ""
-    private var adNetwork: String = "AdMob"
+    private var adNetwork: String = "AdGam"
     private var adsId: String = ""
     
     var didEarn: Bool = false
@@ -45,9 +45,9 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
         self.adsId = adsId
         let request = GAMRequest()
         
-        GADRewardedInterstitialAd.load(withAdUnitID: adsId,
-                                       request: request,
-                                       completionHandler: {  [weak self] ad, error in
+        GADRewardedAd.load(withAdUnitID: adsId,
+                           request: request,
+                           completionHandler: {  [weak self] ad, error in
             self?.isLoading = false
             if let error = error {
                 
@@ -216,7 +216,7 @@ extension iAdsGamSDK_RewardedManager: GADFullScreenContentDelegate {
         if didEarn {
             completionShow?(.success(()))
         } else {
-            completionShow?(.failure(iAdsGamSDK_Error.closeNoReward))
+            completionShow?(.failure(iAdsCoreSDK_Error.closeNoReward))
         }
     }
 }

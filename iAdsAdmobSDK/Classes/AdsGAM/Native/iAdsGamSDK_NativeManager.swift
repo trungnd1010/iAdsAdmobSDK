@@ -26,7 +26,7 @@ public class iAdsGamSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
     
     private var placement: String = ""
     private var priority: String = ""
-    private var adNetwork: String = "AdMob"
+    private var adNetwork: String = "AdGam"
     private var adsId: String = ""
     
     private var nativeAd: GADNativeAd? = nil
