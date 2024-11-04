@@ -12,7 +12,7 @@ public class iAdsAdmobSDKManager {
     private init() {}
     
     @MainActor
-    func setup(isTestAds: Bool) {
+    public func setup(isTestAds: Bool) {
         GADMobileAds.sharedInstance().start()
         if isTestAds, let currentIDFV = UIDevice.current.identifierForVendor?.uuidString {
             GADMobileAds.sharedInstance().requestConfiguration.testDeviceIdentifiers = [currentIDFV ]
