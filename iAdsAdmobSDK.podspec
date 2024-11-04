@@ -37,4 +37,10 @@ TODO: Add long description of the pod here.
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'iAdsCoreSDK'
   s.dependency 'iComponentsSDK'
+
+  s.dependency 'GoogleMobileAdsMediationAppLovin'
+  s.dependency 'GoogleMobileAdsMediationFacebook'
+  s.dependency 'GoogleMobileAdsMediationMintegral'
+  s.dependency 'GoogleMobileAdsMediationPangle'
+
 end
