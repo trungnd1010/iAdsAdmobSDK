@@ -39,7 +39,7 @@ TODO: Add long description of the pod here.
   s.dependency 'iComponentsSDK'
 
   s.dependency 'GoogleMobileAdsMediationAppLovin'
-  s.dependency 'GoogleMobileAdsMediationFacebook'
+#  s.dependency 'GoogleMobileAdsMediationFacebook'
   s.dependency 'GoogleMobileAdsMediationMintegral'
   s.dependency 'GoogleMobileAdsMediationPangle'
 

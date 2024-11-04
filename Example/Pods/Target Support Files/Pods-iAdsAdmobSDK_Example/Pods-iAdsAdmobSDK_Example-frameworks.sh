@@ -177,6 +177,7 @@ code_sign_if_enabled() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iAdsCoreSDK/iAdsCoreSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iComponentsSDK/iComponentsSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iReadFileConfigSDK/iReadFileConfigSDK.framework"
@@ -184,6 +185,7 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Adjust/Adjust.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/AppLovinSDK/AppLovinSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iAdsCoreSDK/iAdsCoreSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iComponentsSDK/iComponentsSDK.framework"
   install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/iReadFileConfigSDK/iReadFileConfigSDK.framework"
