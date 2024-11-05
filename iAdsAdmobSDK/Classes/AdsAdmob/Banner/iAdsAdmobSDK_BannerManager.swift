@@ -48,19 +48,22 @@ public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
         self.isLoading = true
         self.adsId = adsId
         
-        bannerView?.adSize = GADAdSizeBanner
-        bannerView?.adUnitID = adsId
-        bannerView?.delegate = self
-        bannerView?.rootViewController = vc
-        
-        let request = GADRequest()
-        if let collapsible = collapsible {
-            let extras = GADExtras()
-            extras.additionalParameters = ["collapsible" : collapsible]
-            request.register(extras)
+        DispatchQueue.main.async {
+            self.bannerView = GADBannerView()
+            self.bannerView?.adSize = GADAdSizeBanner
+            self.bannerView?.adUnitID = adsId
+            self.bannerView?.delegate = self
+            self.bannerView?.rootViewController = vc
+            
+            let request = GADRequest()
+            if let collapsible = collapsible {
+                let extras = GADExtras()
+                extras.additionalParameters = ["collapsible" : collapsible]
+                request.register(extras)
+            }
+            
+            self.bannerView?.load(request)
         }
-        
-        bannerView?.load(request)
     }
     
     public func showAds(containerView: UIView,
@@ -116,6 +119,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                           ad_id: "")
         }
         completionLoad?(.success(()))
+        completionLoad = nil
     }
     
     public func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: any Error) {
@@ -134,6 +138,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))
+        completionLoad = nil
     }
     
     public func bannerViewDidRecordClick(_ bannerView: GADBannerView) {

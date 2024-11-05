@@ -47,20 +47,22 @@ public class iAdsGamSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
         self.completionLoad = completion
         self.isLoading = true
         self.adsId = adsId
-        
-        bannerView?.adSize = GADAdSizeBanner
-        bannerView?.adUnitID = adsId
-        bannerView?.delegate = self
-        bannerView?.rootViewController = vc
-        
-        let request = GADRequest()
-        if let collapsible = collapsible {
-            let extras = GADExtras()
-            extras.additionalParameters = ["collapsible" : collapsible]
-            request.register(extras)
+        DispatchQueue.main.async {
+            self.bannerView = GAMBannerView()
+            self.bannerView?.adSize = GADAdSizeBanner
+            self.bannerView?.adUnitID = adsId
+            self.bannerView?.delegate = self
+            self.bannerView?.rootViewController = vc
+            
+            let request = GADRequest()
+            if let collapsible = collapsible {
+                let extras = GADExtras()
+                extras.additionalParameters = ["collapsible" : collapsible]
+                request.register(extras)
+            }
+            
+            self.bannerView?.load(request)
         }
-        
-        bannerView?.load(request)
     }
     
     public func showAds(containerView: UIView,
@@ -103,7 +105,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
         bannerView.paidEventHandler = { [weak self] adValue in
             guard let self else { return }
             self.adNetwork = bannerView.responseInfo?.loadedAdNetworkResponseInfo?.adSourceName ?? "unknown"
-            iAdsCoreSDK_PaidAd().tracking(ad_platform: .ADMOB,
+            iAdsCoreSDK_PaidAd().tracking(ad_platform: .ADGAM,
                                           currency: adValue.currencyCode,
                                           value: Double(truncating: adValue.value),
                                           ad_unit_name: adsId,
@@ -114,6 +116,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
                                           ad_id: "")
         }
         completionLoad?(.success(()))
+        completionLoad = nil
     }
     
     public func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: any Error) {
@@ -132,6 +135,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))
+        completionLoad = nil
     }
     
     public func bannerViewDidRecordClick(_ bannerView: GADBannerView) {
