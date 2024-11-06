@@ -34,7 +34,7 @@
 			isa = PBXAggregateTarget;
 			buildConfigurationList = EB69249F22878E4D2675A036A49A98E4 /* Build configuration list for PBXAggregateTarget "GoogleMobileAdsMediationPangle" */;
 			buildPhases = (
-				7D134F2B4286D3BF5DB9E2DBFE029D31 /* [CP] Copy XCFrameworks */,
+				FE779ADA6103A43A5848917DF1D430A5 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 				290D708EF92AD1D54AD35A464445C880 /* PBXTargetDependency */,
@@ -557,7 +557,6 @@
 		307BC2404E1FDD4DD52DF914080B9D0C /* iReadFileConfigSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = iReadFileConfigSDK.xcframework; path = frameworks/iReadFileConfigSDK.xcframework; sourceTree = "<group>"; };
 		335535AC4597489BEE5D03DFA69A4FD1 /* iAdsGamSDK_InterManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_InterManager.swift; sourceTree = "<group>"; };
 		34074028115C8CB22428EFEDCB1F7B0C /* ADJActivityHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJActivityHandler.h; path = Adjust/ADJActivityHandler.h; sourceTree = "<group>"; };
-		3566D26ABAC7DD609AF80E6114E5B20E /* Pods-iAdsAdmobSDK_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iAdsAdmobSDK_Example"; path = Pods_iAdsAdmobSDK_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3611DE8E3A1A0A364A9B2A88BE9C09B3 /* MintegralAdSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "MintegralAdSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		36126500DB6F5A8FB1353377BBD89345 /* GoogleMobileAdsMediationAppLovin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMobileAdsMediationAppLovin.release.xcconfig; sourceTree = "<group>"; };
 		369C047DE93519AF687F743542A66121 /* MTGSDKNewInterstitial.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = MTGSDKNewInterstitial.xcframework; path = Fmk/MTGSDKNewInterstitial.xcframework; sourceTree = "<group>"; };
@@ -615,6 +614,7 @@
 		86F6C6EC3D9FC71811572B54DD4660AA /* iComponentsSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "iComponentsSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		871230C5BD9D9E224A6F4735A92F20EB /* Google-Mobile-Ads-SDK-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Google-Mobile-Ads-SDK-dummy.m"; sourceTree = "<group>"; };
 		872B6A8054B994434567B622F902A43C /* ADJTimerOnce.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJTimerOnce.h; path = Adjust/ADJTimerOnce.h; sourceTree = "<group>"; };
+		889BFC3A70A9E75EE2AA635BFB7F0D9D /* PangleAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = PangleAdapter.xcframework; path = "PangleAdapter-6.3.0.8.0/PangleAdapter.xcframework"; sourceTree = "<group>"; };
 		8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "GoogleUserMessagingPlatform-UserMessagingPlatformResources"; path = UserMessagingPlatformResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		8AA20B2D0D1492B1F4BAEB1B56BF5A8E /* Pods-iAdsAdmobSDK_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-iAdsAdmobSDK_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		8C7E23E3C5E967022002C18EA7E1A9D0 /* ADJAdRevenue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJAdRevenue.m; path = Adjust/ADJAdRevenue.m; sourceTree = "<group>"; };
@@ -654,7 +654,6 @@
 		B72C95F390B20444CFF3E20BD3AF6116 /* Pods-iAdsAdmobSDK_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-iAdsAdmobSDK_Example-dummy.m"; sourceTree = "<group>"; };
 		B868235B8B2D2063F911425FB2E2012C /* ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-GoogleMobileAdsResources-Google-Mobile-Ads-SDK-Info.plist"; sourceTree = "<group>"; };
 		B9DACB0383CB23E7B8BC9C89BAAFAB71 /* Google-Mobile-Ads-SDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Google-Mobile-Ads-SDK.debug.xcconfig"; sourceTree = "<group>"; };
-		BF7AA396B84F3B009685AC3C332633BE /* PangleAdapter.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = PangleAdapter.xcframework; path = "PangleAdapter-6.3.0.6.0/PangleAdapter.xcframework"; sourceTree = "<group>"; };
 		BF8019A12C7B37DD5F6B0B2C41BDB7CB /* ADJPurchaseVerificationHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ADJPurchaseVerificationHandler.h; path = Adjust/ADJPurchaseVerificationHandler.h; sourceTree = "<group>"; };
 		C0B25FB5A8953842C16CD72CB3D32D01 /* iAdsGamSDK_BannerManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = iAdsGamSDK_BannerManager.swift; sourceTree = "<group>"; };
 		C104A87DC14256D217545BAFA34DB316 /* Ads-Global.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ads-Global.debug.xcconfig"; sourceTree = "<group>"; };
@@ -664,7 +663,6 @@
 		C482C95AC7B8321EC1D36BDBA9E2DA9D /* ADJSKAdNetwork.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJSKAdNetwork.m; path = Adjust/ADJSKAdNetwork.m; sourceTree = "<group>"; };
 		C6DA6541EDE47C0C76EAB34247A9E79E /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; includeInIndex = 1; name = PrivacyInfo.xcprivacy; path = "Frameworks/GoogleMobileAdsFramework/GoogleMobileAds.xcframework/ios-arm64/GoogleMobileAds.framework/PrivacyInfo.xcprivacy"; sourceTree = "<group>"; };
 		C71BAF715EBCB2699D0BDC3D4818D6B7 /* ADJPurchaseVerificationHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJPurchaseVerificationHandler.m; path = Adjust/ADJPurchaseVerificationHandler.m; sourceTree = "<group>"; };
-		C9156A6C7C0AEA03FE445B421119DDC7 /* Pods-iAdsAdmobSDK_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-iAdsAdmobSDK_Tests"; path = Pods_iAdsAdmobSDK_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCCDD4A2656C98A3CBABE3DDEEDFA43D /* GoogleMobileAdsMediationPangle-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "GoogleMobileAdsMediationPangle-xcframeworks.sh"; sourceTree = "<group>"; };
 		CD53007394D074D4CE21DA0510B11CDF /* Adjust-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Adjust-umbrella.h"; sourceTree = "<group>"; };
 		CDBD2C75DBDDB585F9F1EDAB882C1D69 /* ADJUserDefaults.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ADJUserDefaults.m; path = Adjust/ADJUserDefaults.m; sourceTree = "<group>"; };
@@ -882,6 +880,14 @@
 			isa = PBXGroup;
 			children = (
 				69C69CDBB7631C14E8A74DEACDFB47AD /* iComponentsSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		13C6F9C4AAF78381EE3DED6416D860F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				889BFC3A70A9E75EE2AA635BFB7F0D9D /* PangleAdapter.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1138,14 +1144,6 @@
 			isa = PBXGroup;
 			children = (
 				369C047DE93519AF687F743542A66121 /* MTGSDKNewInterstitial.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		74FB82CF77E2735FDA0AF842303E3958 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BF7AA396B84F3B009685AC3C332633BE /* PangleAdapter.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -1477,8 +1475,6 @@
 				8A377C18F92A8A511869ADA54B5652D2 /* GoogleUserMessagingPlatform-UserMessagingPlatformResources */,
 				FB412FF0EEFE9D80B01449B728D523AD /* iAdsAdmobSDK */,
 				407009B1C677C250F6837E3F3F4FA5AB /* MintegralAdSDK-MTGSDK */,
-				3566D26ABAC7DD609AF80E6114E5B20E /* Pods-iAdsAdmobSDK_Example */,
-				C9156A6C7C0AEA03FE445B421119DDC7 /* Pods-iAdsAdmobSDK_Tests */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -1670,7 +1666,7 @@
 		ED23062EBC112DA029258E659D7CD93F /* GoogleMobileAdsMediationPangle */ = {
 			isa = PBXGroup;
 			children = (
-				74FB82CF77E2735FDA0AF842303E3958 /* Frameworks */,
+				13C6F9C4AAF78381EE3DED6416D860F0 /* Frameworks */,
 				E36FC505F9E7B58D828BD044D9AE46A1 /* Support Files */,
 			);
 			name = GoogleMobileAdsMediationPangle;
@@ -1838,7 +1834,6 @@
 			);
 			name = "Pods-iAdsAdmobSDK_Example";
 			productName = Pods_iAdsAdmobSDK_Example;
-			productReference = 3566D26ABAC7DD609AF80E6114E5B20E /* Pods-iAdsAdmobSDK_Example */;
 			productType = "com.apple.product-type.framework";
 		};
 		19577840F1C48EB693BC2CD4B4C94D7E /* Ads-Global-AdsGlobalSDK */ = {
@@ -1944,7 +1939,6 @@
 			);
 			name = "Pods-iAdsAdmobSDK_Tests";
 			productName = Pods_iAdsAdmobSDK_Tests;
-			productReference = C9156A6C7C0AEA03FE445B421119DDC7 /* Pods-iAdsAdmobSDK_Tests */;
 			productType = "com.apple.product-type.framework";
 		};
 		B767504D434F16D4D6DBE7C3876B40A9 /* iAdsAdmobSDK */ = {
@@ -2018,7 +2012,7 @@
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 			};
-			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -2241,24 +2235,6 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/iTrackingSDK/iTrackingSDK-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		7D134F2B4286D3BF5DB9E2DBFE029D31 /* [CP] Copy XCFrameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/GoogleMobileAdsMediationPangle/GoogleMobileAdsMediationPangle-xcframeworks.sh",
-				"${PODS_ROOT}/GoogleMobileAdsMediationPangle/PangleAdapter-6.3.0.6.0/PangleAdapter.xcframework",
-			);
-			name = "[CP] Copy XCFrameworks";
-			outputPaths = (
-				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleMobileAdsMediationPangle/PangleAdapter.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMobileAdsMediationPangle/GoogleMobileAdsMediationPangle-xcframeworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		9FD601AE9CDFF3F8A27B5A2D4C8A0E9F /* [CP] Copy XCFrameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -2365,6 +2341,24 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/iReadFileConfigSDK/iReadFileConfigSDK-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE779ADA6103A43A5848917DF1D430A5 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/GoogleMobileAdsMediationPangle/GoogleMobileAdsMediationPangle-xcframeworks.sh",
+				"${PODS_ROOT}/GoogleMobileAdsMediationPangle/PangleAdapter-6.3.0.8.0/PangleAdapter.xcframework",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputPaths = (
+				"${PODS_XCFRAMEWORKS_BUILD_DIR}/GoogleMobileAdsMediationPangle/PangleAdapter.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/GoogleMobileAdsMediationPangle/GoogleMobileAdsMediationPangle-xcframeworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -2752,39 +2746,6 @@
 			};
 			name = Release;
 		};
-		16C5564FCB2E66F5F595E308A2E20161 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A7D35C6DDB808A2C9D3764A206BB149 /* iAdsAdmobSDK.debug.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
-				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
-				PRODUCT_NAME = iAdsAdmobSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		20C49F743584BDB6AF03759A3879A077 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A06C338AE83FFAEFAD35FBC81336DC51 /* GoogleMobileAdsMediationMintegral.debug.xcconfig */;
@@ -2900,6 +2861,39 @@
 			};
 			name = Release;
 		};
+		4406B6AC19BC57668F1A2950CA7BB43E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A7D35C6DDB808A2C9D3764A206BB149 /* iAdsAdmobSDK.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
+				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
+				PRODUCT_NAME = iAdsAdmobSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		4AF1B08E8AC6794C3134D2BCD02FDDBA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = AD406B9F07D945BB73344F50B00AD7FA /* iReadFileConfigSDK.debug.xcconfig */;
@@ -2996,9 +2990,25 @@
 			};
 			name = Debug;
 		};
-		5F1D3BC1C20B2B5ECC1E7513FB9B0867 /* Debug */ = {
+		638488E743E1A151041C9CE1E23DED75 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B3B84121A638699B156CBBDEDAA4E493 /* Adjust.debug.xcconfig */;
+			baseConfigurationReference = 46208A5E29FEFFE1A1494DBA1B06E177 /* AppLovinSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67DD1308CBA17B0CABEAAA745C68D6C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8C948098D371C121799CFDEE2FDE13A2 /* Adjust.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -3020,26 +3030,11 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		638488E743E1A151041C9CE1E23DED75 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 46208A5E29FEFFE1A1494DBA1B06E177 /* AppLovinSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -3269,6 +3264,37 @@
 			};
 			name = Debug;
 		};
+		9D81490A7C491AFC8FD76A728FC4CF64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B3B84121A638699B156CBBDEDAA4E493 /* Adjust.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Adjust/Adjust-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Adjust/Adjust-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Adjust/Adjust.modulemap";
+				PRODUCT_MODULE_NAME = Adjust;
+				PRODUCT_NAME = Adjust;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		A21AD7E290C94B541828F3F4DEB79123 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1ADFC37D22D25C07FDDD14AEFDB8920A /* iComponentsSDK.release.xcconfig */;
@@ -3336,40 +3362,6 @@
 			};
 			name = Release;
 		};
-		B5A76D0420753EB28E55904A6A388439 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CED1AB177A7281F7D5F26A7850468A73 /* iAdsAdmobSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
-				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
-				PRODUCT_NAME = iAdsAdmobSDK;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		B81732FD6F6911ACE42877A47C010736 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A345F78F44239B522C16F94792099A6C /* iAdsCoreSDK.debug.xcconfig */;
@@ -3399,38 +3391,6 @@
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
-		};
-		BF715EF70FD09819DCDC6FE393123E68 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C948098D371C121799CFDEE2FDE13A2 /* Adjust.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Adjust/Adjust-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Adjust/Adjust-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Adjust/Adjust.modulemap";
-				PRODUCT_MODULE_NAME = Adjust;
-				PRODUCT_NAME = Adjust;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		C2A0257826E19C41B39C550E869928BD /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3543,6 +3503,40 @@
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E04C467C729FAD2959BD83F9990F01E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CED1AB177A7281F7D5F26A7850468A73 /* iAdsAdmobSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/iAdsAdmobSDK/iAdsAdmobSDK.modulemap";
+				PRODUCT_MODULE_NAME = iAdsAdmobSDK;
+				PRODUCT_NAME = iAdsAdmobSDK;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
@@ -3724,7 +3718,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "_Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				4BC7450F9457737EE3E637BA155B56F7 /* Debug */,
@@ -3799,8 +3793,8 @@
 		BEFC3FA8844E6598D377D91097002E87 /* Build configuration list for PBXNativeTarget "iAdsAdmobSDK" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				16C5564FCB2E66F5F595E308A2E20161 /* Debug */,
-				B5A76D0420753EB28E55904A6A388439 /* Release */,
+				4406B6AC19BC57668F1A2950CA7BB43E /* Debug */,
+				E04C467C729FAD2959BD83F9990F01E7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -3835,8 +3829,8 @@
 		DB44D60C2F224F2B5EB61C3BC5F0F6C4 /* Build configuration list for PBXNativeTarget "Adjust" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F1D3BC1C20B2B5ECC1E7513FB9B0867 /* Debug */,
-				BF715EF70FD09819DCDC6FE393123E68 /* Release */,
+				9D81490A7C491AFC8FD76A728FC4CF64 /* Debug */,
+				67DD1308CBA17B0CABEAAA745C68D6C2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

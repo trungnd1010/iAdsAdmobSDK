@@ -33,6 +33,7 @@ TODO: Add long description of the pod here.
   s.source_files = 'iAdsAdmobSDK/Classes/**/*'
   
   s.static_framework = true
+  s.swift_version = '5.0'
   
   s.dependency 'Google-Mobile-Ads-SDK'
   s.dependency 'iAdsCoreSDK'

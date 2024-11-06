@@ -1,6 +1,6 @@
 {
   "name": "iAdsAdmobSDK",
-  "version": "1.6.0",
+  "version": "1.8.0",
   "summary": "A short description of iAdsAdmobSDK.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/trungnd1010/iAdsAdmobSDK",
@@ -13,13 +13,14 @@
   },
   "source": {
     "git": "https://github.com/trungnd1010/iAdsAdmobSDK",
-    "tag": "1.6.0"
+    "tag": "1.8.0"
   },
   "platforms": {
     "ios": "14.0"
   },
   "source_files": "iAdsAdmobSDK/Classes/**/*",
   "static_framework": true,
+  "swift_versions": "5.0",
   "dependencies": {
     "Google-Mobile-Ads-SDK": [
 
@@ -39,5 +40,6 @@
     "GoogleMobileAdsMediationPangle": [
 
     ]
-  }
+  },
+  "swift_version": "5.0"
 }
