@@ -1,6 +1,0 @@
-framework module Pods_iAdsAdmobSDK_Example {
-  umbrella header "Pods-iAdsAdmobSDK_Example-umbrella.h"
-
-  export *
-  module * { export * }
-}

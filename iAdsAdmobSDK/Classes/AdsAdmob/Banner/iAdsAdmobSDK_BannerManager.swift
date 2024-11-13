@@ -27,6 +27,9 @@ public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
     private var adNetwork: String = "AdMob"
     private var adsId: String = ""
     
+    private var sub_ad_format = iAdsCoreSDK_AdTrack.AdTrackSubAdFormat.banner_inline
+    private var paid_ad_format = iAdsCoreSDK_PaidAd.PaidAdSubAdFormat.banner_inline
+    
     private var bannerView: GADBannerView? = nil
     
     public static
@@ -47,6 +50,16 @@ public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
         self.completionLoad = completion
         self.isLoading = true
         self.adsId = adsId
+        
+        if (isMrec ?? false) {
+            sub_ad_format = .mrec
+            paid_ad_format = .mrec
+        }
+        
+        if (collapsible ?? "") != "" {
+            sub_ad_format = .banner_collapsible
+            paid_ad_format = .banner_collapsible
+        }
         
         DispatchQueue.main.async {
             self.bannerView = GADBannerView()
@@ -95,7 +108,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        script_name: .load_xx,
                                        ad_network: adNetwork,
                                        ad_format: .Banner,
-                                       sub_ad_format: .banner,
+                                       sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -114,7 +127,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                           ad_unit_name: adsId,
                                           ad_network: adNetwork,
                                           ad_format: .Banner,
-                                          sub_ad_format: .banner,
+                                          sub_ad_format: paid_ad_format,
                                           placement: placement,
                                           ad_id: "")
         }
@@ -131,7 +144,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        script_name: .load_xx,
                                        ad_network: adNetwork,
                                        ad_format: .Banner,
-                                       sub_ad_format: .banner,
+                                       sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -149,7 +162,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
                                        ad_format: .Banner,
-                                       sub_ad_format: .banner,
+                                       sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -165,7 +178,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
                                        ad_format: .Banner,
-                                       sub_ad_format: .banner,
+                                       sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -181,7 +194,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
                                        ad_format: .Banner,
-                                       sub_ad_format: .banner,
+                                       sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
                                        time: "",
@@ -197,7 +210,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        script_name: .show_xx,
                                        ad_network: adNetwork,
                                        ad_format: .Banner,
-                                       sub_ad_format: .banner,
+                                       sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
                                        time: "",
