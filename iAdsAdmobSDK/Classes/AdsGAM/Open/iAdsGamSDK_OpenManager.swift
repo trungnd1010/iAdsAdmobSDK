@@ -51,7 +51,7 @@ public class iAdsGamSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
             self?.isLoading = false
             if let error = error {
                 
-                iAdsCoreSDK_AdTrack().tracking(placement: "",
+                iAdsCoreSDK_AdTrack().tracking(placement: self?.placement ?? "",
                                                ad_status: .load_failed,
                                                ad_unit_name: adsId,
                                                ad_action: .load,
@@ -71,7 +71,7 @@ public class iAdsGamSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
             self?.openAd = ad
             self?.isHasAds = true
             
-            iAdsCoreSDK_AdTrack().tracking(placement: "",
+            iAdsCoreSDK_AdTrack().tracking(placement: self?.placement ?? "",
                                            ad_status: .loaded,
                                            ad_unit_name: adsId,
                                            ad_action: .load,

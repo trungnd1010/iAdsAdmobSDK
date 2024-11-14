@@ -51,7 +51,7 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
             self?.isLoading = false
             if let error = error {
                 
-                iAdsCoreSDK_AdTrack().tracking(placement: "",
+                iAdsCoreSDK_AdTrack().tracking(placement: self?.placement ?? "",
                                                ad_status: .load_failed,
                                                ad_unit_name: adsId,
                                                ad_action: .load,
@@ -71,7 +71,7 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
             self?.interstitialAd = ad
             self?.isHasAds = true
             
-            iAdsCoreSDK_AdTrack().tracking(placement: "",
+            iAdsCoreSDK_AdTrack().tracking(placement: self?.placement ?? "",
                                            ad_status: .loaded,
                                            ad_unit_name: adsId,
                                            ad_action: .load,

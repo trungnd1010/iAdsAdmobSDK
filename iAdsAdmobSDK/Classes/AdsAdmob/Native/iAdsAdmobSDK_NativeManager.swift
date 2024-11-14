@@ -85,7 +85,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
         
        
         isLoading = false
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .loaded,
                                        ad_unit_name: adsId,
                                        ad_action: .load,
@@ -120,7 +120,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
     
     public func adLoader(_ adLoader: GADAdLoader, didFailToReceiveAdWithError error: any Error) {
         isLoading = false
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .load_failed,
                                        ad_unit_name: adsId,
                                        ad_action: .load,
@@ -137,7 +137,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
     }
     
     public func nativeAdDidRecordClick(_ nativeAd: GADNativeAd) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .clicked,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
@@ -153,7 +153,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
     }
     
     public func nativeAdDidRecordImpression(_ nativeAd: GADNativeAd) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .impression,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
@@ -169,7 +169,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
     }
     
     public func nativeAdWillPresentScreen(_ nativeAd: GADNativeAd) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .showed,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
@@ -185,7 +185,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
     }
     
     public func nativeAdDidDismissScreen(_ nativeAd: GADNativeAd) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .closed,
                                        ad_unit_name: adsId,
                                        ad_action: .show,

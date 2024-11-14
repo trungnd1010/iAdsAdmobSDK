@@ -18,12 +18,12 @@ PODS:
     - Ads-Global (= 6.3.0.8)
     - Google-Mobile-Ads-SDK (~> 11.0)
   - GoogleUserMessagingPlatform (2.7.0)
-  - iAdsAdmobSDK (1.9.0):
+  - iAdsAdmobSDK (1.11.0):
     - Google-Mobile-Ads-SDK
     - GoogleMobileAdsMediationAppLovin
     - GoogleMobileAdsMediationMintegral
     - GoogleMobileAdsMediationPangle
-    - iAdsCoreSDK (= 1.8.0)
+    - iAdsCoreSDK
     - iComponentsSDK
   - iAdsCoreSDK (1.8.0):
     - iTrackingSDK
@@ -90,7 +90,7 @@ SPEC CHECKSUMS:
   GoogleMobileAdsMediationMintegral: 23140cf05ff9ee869186459dc685bb1948ccbd16
   GoogleMobileAdsMediationPangle: 2f4e476d953a0cddd0104a9d15ec1407cce54f4b
   GoogleUserMessagingPlatform: a8b56893477f67212fbc8411c139e61d463349f5
-  iAdsAdmobSDK: 2e0505636b6a9cb8e08af83440ef2e124d2dc6f8
+  iAdsAdmobSDK: ce4fb3ed8954603aeef46d7bed70f512fd4e1192
   iAdsCoreSDK: 6a1d682cee866f91a99dae2fabc28955573cab56
   iComponentsSDK: 56858f4f510d4bbbd1cf2526a4b7848eac9d5d9c
   iReadFileConfigSDK: 81543aa77b5b5c1a2669ef115e66c25482bdee23

@@ -102,7 +102,7 @@ public class iAdsGamSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
 extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
     public func bannerViewDidReceiveAd(_ bannerView: GADBannerView) {
         isLoading = false
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .loaded,
                                        ad_unit_name: adsId,
                                        ad_action: .load,
@@ -136,7 +136,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
     
     public func bannerView(_ bannerView: GADBannerView, didFailToReceiveAdWithError error: any Error) {
         isLoading = false
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .load_failed,
                                        ad_unit_name: adsId,
                                        ad_action: .load,
@@ -154,7 +154,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
     }
     
     public func bannerViewDidRecordClick(_ bannerView: GADBannerView) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .clicked,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
@@ -170,7 +170,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
     }
     
     public func bannerViewDidRecordImpression(_ bannerView: GADBannerView) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .impression,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
@@ -186,7 +186,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
     }
     
     public func bannerViewWillPresentScreen(_ bannerView: GADBannerView) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .showed,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
@@ -202,7 +202,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
     }
     
     public func bannerViewDidDismissScreen(_ bannerView: GADBannerView) {
-        iAdsCoreSDK_AdTrack().tracking(placement: "",
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
                                        ad_status: .closed,
                                        ad_unit_name: adsId,
                                        ad_action: .show,
