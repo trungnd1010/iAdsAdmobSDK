@@ -29,6 +29,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
     private var adNetwork: String = "AdGam"
     private var adsId: String = ""
     
+    private var dateStartLoad: Date = Date()
     
     public static
     func make() -> iAdsCoreSDK_IntertitialProtocol {
@@ -41,6 +42,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
             completion(.failure(iAdsGamSDK_Error.adsIdIsLoading))
             return
         }
+        self.dateStartLoad = Date()
         self.isLoading = true
         self.adsId = adsId
         let request = GAMRequest()
@@ -59,8 +61,8 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
                                                ad_format: .Interstitial,
                                                sub_ad_format: .inter,
                                                error_code: "",
-                                               message: "",
-                                               time: "",
+                                               message: error.localizedDescription,
+                                               time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -80,7 +82,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
                                            sub_ad_format: .inter,
                                            error_code: "",
                                            message: "",
-                                           time: "",
+                                           time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                            priority: "",
                                            recall_ad: .no)
             

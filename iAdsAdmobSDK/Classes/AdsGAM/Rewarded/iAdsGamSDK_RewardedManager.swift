@@ -27,6 +27,7 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
     private var priority: String = ""
     private var adNetwork: String = "AdGam"
     private var adsId: String = ""
+    private var dateStartLoad: Date = Date()
     
     var didEarn: Bool = false
     
@@ -41,6 +42,8 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
             completion(.failure(iAdsGamSDK_Error.adsIdIsLoading))
             return
         }
+        
+        self.dateStartLoad = Date()
         self.isLoading = true
         self.adsId = adsId
         let request = GAMRequest()
@@ -60,8 +63,8 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
                                                ad_format: .Rewarded_Video,
                                                sub_ad_format: .rewarded_inter,
                                                error_code: "",
-                                               message: "",
-                                               time: "",
+                                               message: error.localizedDescription,
+                                               time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -81,7 +84,7 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
                                            sub_ad_format: .rewarded_inter,
                                            error_code: "",
                                            message: "",
-                                           time: "",
+                                           time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                            priority: "",
                                            recall_ad: .no)
             

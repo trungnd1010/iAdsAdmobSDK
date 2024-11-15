@@ -30,6 +30,7 @@ public class iAdsGamSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
     private var adsId: String = ""
     
     private var nativeAd: GADNativeAd? = nil
+    private var dateStartLoad: Date = Date()
     
     public static
     func make() -> iAdsCoreSDK_NativeProtocol {
@@ -44,6 +45,8 @@ public class iAdsGamSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
             completion(.failure(iAdsGamSDK_Error.adsIdIsLoading))
             return
         }
+        
+        self.dateStartLoad = Date()
         self.completionLoad = completion
         self.isLoading = true
         self.adsId = adsId
@@ -95,7 +98,7 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                        sub_ad_format: .native,
                                        error_code: "",
                                        message: "",
-                                       time: "",
+                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
@@ -129,8 +132,8 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                        ad_format: .Native,
                                        sub_ad_format: .native,
                                        error_code: "",
-                                       message: "",
-                                       time: "",
+                                       message: error.localizedDescription,
+                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))

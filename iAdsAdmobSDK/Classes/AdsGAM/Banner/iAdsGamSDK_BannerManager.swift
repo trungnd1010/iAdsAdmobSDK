@@ -31,6 +31,7 @@ public class iAdsGamSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
     private var paid_ad_format = iAdsCoreSDK_PaidAd.PaidAdSubAdFormat.banner_inline
     
     private var bannerView: GAMBannerView? = nil
+    private var dateStartLoad: Date = Date()
     
     public static
     func make() -> iAdsCoreSDK_BannerProtocol {
@@ -47,6 +48,7 @@ public class iAdsGamSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
             completion(.failure(iAdsAdmobSDK_Error.adsIdIsLoading))
             return
         }
+        self.dateStartLoad = Date()
         self.completionLoad = completion
         self.isLoading = true
         self.adsId = adsId
@@ -112,7 +114,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
                                        sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
-                                       time: "",
+                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
@@ -145,8 +147,8 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
                                        ad_format: .Banner,
                                        sub_ad_format: sub_ad_format,
                                        error_code: "",
-                                       message: "",
-                                       time: "",
+                                       message: error.localizedDescription,
+                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))

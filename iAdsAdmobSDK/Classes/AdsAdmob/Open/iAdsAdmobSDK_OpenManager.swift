@@ -28,7 +28,7 @@ public class iAdsAdmobSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
     private var priority: String = ""
     private var adNetwork: String = "AdMob"
     private var adsId: String = ""
-    
+    private var dateStartLoad: Date = Date()
     
     public static
     func make() -> iAdsCoreSDK_OpenProtocol {
@@ -41,6 +41,7 @@ public class iAdsAdmobSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
             completion(.failure(iAdsAdmobSDK_Error.adsIdIsLoading))
             return
         }
+        self.dateStartLoad = Date()
         self.isLoading = true
         self.adsId = adsId
         let request = GADRequest()
@@ -60,8 +61,8 @@ public class iAdsAdmobSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                                ad_format: .Open_Ad,
                                                sub_ad_format: .open,
                                                error_code: "",
-                                               message: "",
-                                               time: "",
+                                               message: error.localizedDescription,
+                                               time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -81,7 +82,7 @@ public class iAdsAdmobSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                            sub_ad_format: .open,
                                            error_code: "",
                                            message: "",
-                                           time: "",
+                                           time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                            priority: "",
                                            recall_ad: .no)
             

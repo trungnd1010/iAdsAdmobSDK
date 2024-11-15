@@ -29,6 +29,7 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
     private var adNetwork: String = "AdMob"
     private var adsId: String = ""
     
+    private var dateStartLoad: Date = Date()
     
     public static
     func make() -> iAdsCoreSDK_IntertitialProtocol {
@@ -41,6 +42,7 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
             completion(.failure(iAdsAdmobSDK_Error.adsIdIsLoading))
             return
         }
+        self.dateStartLoad = Date()
         self.isLoading = true
         self.adsId = adsId
         let request = GADRequest()
@@ -60,8 +62,8 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
                                                ad_format: .Interstitial,
                                                sub_ad_format: .inter,
                                                error_code: "",
-                                               message: "",
-                                               time: "",
+                                               message: error.localizedDescription,
+                                               time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -81,7 +83,7 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
                                            sub_ad_format: .inter,
                                            error_code: "",
                                            message: "",
-                                           time: "",
+                                           time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
                                            priority: "",
                                            recall_ad: .no)
             
