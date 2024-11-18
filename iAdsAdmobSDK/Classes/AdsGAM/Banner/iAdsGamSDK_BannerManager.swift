@@ -74,6 +74,7 @@ public class iAdsGamSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
             let request = GADRequest()
             if let collapsible = collapsible {
                 let extras = GADExtras()
+                self.bannerView?.adSize = GADCurrentOrientationAnchoredAdaptiveBannerAdSizeWithWidth(UIScreen.main.bounds.width)
                 extras.additionalParameters = ["collapsible" : collapsible]
                 request.register(extras)
             }
