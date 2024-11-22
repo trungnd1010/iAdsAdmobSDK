@@ -7,6 +7,7 @@
 import GoogleMobileAds
 import iAdsCoreSDK
 import iComponentsSDK
+import iTrackingSDK
 
 
 public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol {
@@ -116,7 +117,8 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
                                               ad_format: .Rewarded_Video,
                                               sub_ad_format: .rewarded_inter,
                                               placement: placement,
-                                              ad_id: "")
+                                              ad_id: "",
+                                              source: AdSourceAdjust_AdMob)
                 
             }
             

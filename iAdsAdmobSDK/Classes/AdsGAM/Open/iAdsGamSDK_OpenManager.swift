@@ -113,7 +113,8 @@ public class iAdsGamSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                               ad_format: .Open_Ad,
                                               sub_ad_format: .open,
                                               placement: placement,
-                                              ad_id: "")
+                                              ad_id: "",
+                                              source: AdSourceAdjust_AdMob)
                 
             }
             

@@ -8,6 +8,7 @@ import UIKit
 import GoogleMobileAds
 import iAdsCoreSDK
 import iComponentsSDK
+import iTrackingSDK
 
 
 public class iAdsGamSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
@@ -116,7 +117,8 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                           ad_format: .Interstitial,
                                           sub_ad_format: .inter,
                                           placement: placement,
-                                          ad_id: "")
+                                          ad_id: "",
+                                          source: AdSourceAdjust_AdMob)
         }
         completionLoad?(.success(()))
     }

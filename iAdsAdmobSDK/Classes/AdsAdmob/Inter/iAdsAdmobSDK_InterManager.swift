@@ -114,7 +114,8 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
                                               ad_format: .Interstitial,
                                               sub_ad_format: .inter,
                                               placement: placement,
-                                              ad_id: "")
+                                              ad_id: "",
+                                              source: AdSourceAdjust_AdMob)
                 
             }
             

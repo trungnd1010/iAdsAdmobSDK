@@ -8,6 +8,7 @@ import UIKit
 import GoogleMobileAds
 import iAdsCoreSDK
 import iComponentsSDK
+import iTrackingSDK
 
 
 public class iAdsGamSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
@@ -131,7 +132,8 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
                                           ad_format: .Banner,
                                           sub_ad_format: paid_ad_format,
                                           placement: placement,
-                                          ad_id: "")
+                                          ad_id: "",
+                                          source: AdSourceAdjust_AdMob)
         }
         completionLoad?(.success(()))
         completionLoad = nil
