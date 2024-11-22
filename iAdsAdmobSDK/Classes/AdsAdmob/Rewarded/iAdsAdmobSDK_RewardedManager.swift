@@ -115,7 +115,7 @@ public class iAdsAdmobSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtoco
                                               sub_ad_format: .rewarded_inter,
                                               placement: placement,
                                               ad_id: "",
-                                              source: AdSourceAdjust_AdMob)
+                                              source: .AdSourceAdjust_AdMob)
                 
             }
             

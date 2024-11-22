@@ -118,7 +118,7 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
                                               sub_ad_format: .rewarded_inter,
                                               placement: placement,
                                               ad_id: "",
-                                              source: AdSourceAdjust_AdMob)
+                                              source: .AdSourceAdjust_AdMob)
                 
             }
             

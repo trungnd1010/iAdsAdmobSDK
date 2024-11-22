@@ -114,7 +114,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
                                               sub_ad_format: .inter,
                                               placement: placement,
                                               ad_id: "",
-                                              source: AdSourceAdjust_AdMob)
+                                              source: .AdSourceAdjust_AdMob)
                 
             }
             

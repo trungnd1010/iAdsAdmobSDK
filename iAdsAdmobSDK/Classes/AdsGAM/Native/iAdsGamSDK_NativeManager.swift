@@ -118,7 +118,7 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                           sub_ad_format: .inter,
                                           placement: placement,
                                           ad_id: "",
-                                          source: AdSourceAdjust_AdMob)
+                                          source: .AdSourceAdjust_AdMob)
         }
         completionLoad?(.success(()))
     }

@@ -117,7 +117,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                           sub_ad_format: .native,
                                           placement: placement,
                                           ad_id: "",
-                                          source: AdSourceAdjust_AdMob)
+                                          source: .AdSourceAdjust_AdMob)
         }
         completionLoad?(.success(()))
     }

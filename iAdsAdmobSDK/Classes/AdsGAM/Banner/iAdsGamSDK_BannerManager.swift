@@ -133,7 +133,7 @@ extension iAdsGamSDK_BannerManager: GADBannerViewDelegate  {
                                           sub_ad_format: paid_ad_format,
                                           placement: placement,
                                           ad_id: "",
-                                          source: AdSourceAdjust_AdMob)
+                                          source: .AdSourceAdjust_AdMob)
         }
         completionLoad?(.success(()))
         completionLoad = nil
