@@ -80,6 +80,21 @@ public class iAdsGamSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
         containerView.iComponentsSDK_removeAllSubviews()
         nativeView.configAd(nativeAd: nativeData)
         containerView.iComponentsSDK_addSubView(subView: nativeView)
+        
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
+                                       ad_status: .showed,
+                                       ad_unit_name: adsId,
+                                       ad_action: .show,
+                                       script_name: .show_xx,
+                                       ad_network: adNetwork,
+                                       ad_format: .Native,
+                                       sub_ad_format: .native,
+                                       error_code: "",
+                                       message: "",
+                                       time: "",
+                                       priority: "",
+                                       recall_ad: .no)
+        
         completion(.success(()))
     }
 }
@@ -173,37 +188,25 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                        recall_ad: .no)
     }
     
-    public func nativeAdWillPresentScreen(_ nativeAd: GADNativeAd) {
-        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
-                                       ad_status: .showed,
-                                       ad_unit_name: adsId,
-                                       ad_action: .show,
-                                       script_name: .show_xx,
-                                       ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
-                                       error_code: "",
-                                       message: "",
-                                       time: "",
-                                       priority: "",
-                                       recall_ad: .no)
-    }
-    
-    public func nativeAdDidDismissScreen(_ nativeAd: GADNativeAd) {
-        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
-                                       ad_status: .closed,
-                                       ad_unit_name: adsId,
-                                       ad_action: .show,
-                                       script_name: .show_xx,
-                                       ad_network: adNetwork,
-                                       ad_format: .Native,
-                                       sub_ad_format: .native,
-                                       error_code: "",
-                                       message: "",
-                                       time: "",
-                                       priority: "",
-                                       recall_ad: .no)
-    }
+//    public func nativeAdWillPresentScreen(_ nativeAd: GADNativeAd) {
+//
+//    }
+//    
+//    public func nativeAdDidDismissScreen(_ nativeAd: GADNativeAd) {
+//        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
+//                                       ad_status: .closed,
+//                                       ad_unit_name: adsId,
+//                                       ad_action: .show,
+//                                       script_name: .show_xx,
+//                                       ad_network: adNetwork,
+//                                       ad_format: .Native,
+//                                       sub_ad_format: .native,
+//                                       error_code: "",
+//                                       message: "",
+//                                       time: "",
+//                                       priority: "",
+//                                       recall_ad: .no)
+//    }
 }
 
 //@objc open
