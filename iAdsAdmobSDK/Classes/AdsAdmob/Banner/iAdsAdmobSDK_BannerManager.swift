@@ -32,7 +32,7 @@ public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
     private var paid_ad_format = iAdsCoreSDK_PaidAd.PaidAdSubAdFormat.banner_inline
     
     private var bannerView: GADBannerView? = nil
-    private var dateStartLoad: Date = Date()
+    private var dateStartLoad: Double = Date().timeIntervalSince1970
     
     public static
     func make() -> iAdsCoreSDK_BannerProtocol {
@@ -49,7 +49,7 @@ public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
             completion(.failure(iAdsAdmobSDK_Error.adsIdIsLoading))
             return
         }
-        self.dateStartLoad = Date()
+        self.dateStartLoad = Date().timeIntervalSince1970
         self.completionLoad = completion
         self.isLoading = true
         self.adsId = adsId
@@ -99,6 +99,19 @@ public class iAdsAdmobSDK_BannerManager: NSObject, iAdsCoreSDK_BannerProtocol {
         containerView.iComponentsSDK_removeAllSubviews()
         containerView.iComponentsSDK_addSubView(subView: bannerView)
         completion(.success(()))
+        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
+                                           ad_status: .showed,
+                                           ad_unit_name: adsId,
+                                           ad_action: .show,
+                                           script_name: .show_xx,
+                                           ad_network: adNetwork,
+                                           ad_format: .Banner,
+                                           sub_ad_format: sub_ad_format,
+                                           error_code: "",
+                                           message: "",
+                                           time: "",
+                                           priority: self.priority,
+                                           recall_ad: .no)
     }
 }
 
@@ -115,7 +128,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
-                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
+                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
@@ -152,7 +165,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: error.localizedDescription,
-                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
+                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))
@@ -192,19 +205,6 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
     }
     
     public func bannerViewWillPresentScreen(_ bannerView: GADBannerView) {
-        iAdsCoreSDK_AdTrack().tracking(placement: self.placement,
-                                       ad_status: .showed,
-                                       ad_unit_name: adsId,
-                                       ad_action: .show,
-                                       script_name: .show_xx,
-                                       ad_network: adNetwork,
-                                       ad_format: .Banner,
-                                       sub_ad_format: sub_ad_format,
-                                       error_code: "",
-                                       message: "",
-                                       time: "",
-                                       priority: "",
-                                       recall_ad: .no)
     }
     
     public func bannerViewDidDismissScreen(_ bannerView: GADBannerView) {

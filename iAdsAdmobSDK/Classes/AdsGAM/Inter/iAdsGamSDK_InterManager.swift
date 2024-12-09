@@ -29,7 +29,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
     private var adNetwork: String = "AdGam"
     private var adsId: String = ""
     
-    private var dateStartLoad: Date = Date()
+    private var dateStartLoad: Double = Date().timeIntervalSince1970
     
     public static
     func make() -> iAdsCoreSDK_IntertitialProtocol {
@@ -42,7 +42,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
             completion(.failure(iAdsGamSDK_Error.adsIdIsLoading))
             return
         }
-        self.dateStartLoad = Date()
+        self.dateStartLoad = Date().timeIntervalSince1970
         self.isLoading = true
         self.adsId = adsId
         let request = GAMRequest()
@@ -60,9 +60,9 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
                                                ad_network: self?.adNetwork ?? "",
                                                ad_format: .Interstitial,
                                                sub_ad_format: .inter,
-                                               error_code: "",
+                                               error_code: String(error.code),
                                                message: error.localizedDescription,
-                                               time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
+                                               time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -82,7 +82,7 @@ public class iAdsGamSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtocol 
                                            sub_ad_format: .inter,
                                            error_code: "",
                                            message: "",
-                                           time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
+                                           time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                            priority: "",
                                            recall_ad: .no)
             
@@ -170,8 +170,8 @@ extension iAdsGamSDK_InterManager: GADFullScreenContentDelegate {
                                        ad_network: adNetwork,
                                        ad_format: .Interstitial,
                                        sub_ad_format: .inter,
-                                       error_code: "",
-                                       message: "",
+                                       error_code: String(error.code),
+                                       message: error.localizedDescription,
                                        time: "",
                                        priority: priority,
                                        recall_ad: .no)

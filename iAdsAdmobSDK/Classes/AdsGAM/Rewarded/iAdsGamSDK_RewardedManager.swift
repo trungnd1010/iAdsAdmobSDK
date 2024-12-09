@@ -28,7 +28,7 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
     private var priority: String = ""
     private var adNetwork: String = "AdGam"
     private var adsId: String = ""
-    private var dateStartLoad: Date = Date()
+    private var dateStartLoad: Double = Date().timeIntervalSince1970
     
     var didEarn: Bool = false
     
@@ -44,7 +44,7 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
             return
         }
         
-        self.dateStartLoad = Date()
+        self.dateStartLoad = Date().timeIntervalSince1970
         self.isLoading = true
         self.adsId = adsId
         let request = GAMRequest()
@@ -63,9 +63,9 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
                                                ad_network: self?.adNetwork ?? "",
                                                ad_format: .Rewarded_Video,
                                                sub_ad_format: .rewarded_inter,
-                                               error_code: "",
+                                               error_code: String(error.code),
                                                message: error.localizedDescription,
-                                               time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
+                                               time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -85,7 +85,7 @@ public class iAdsGamSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtocol 
                                            sub_ad_format: .rewarded_inter,
                                            error_code: "",
                                            message: "",
-                                           time: "\(Date().timeIntervalSince1970 - (self?.dateStartLoad.timeIntervalSince1970 ?? 0))",
+                                           time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                            priority: "",
                                            recall_ad: .no)
             
@@ -176,8 +176,8 @@ extension iAdsGamSDK_RewardedManager: GADFullScreenContentDelegate {
                                        ad_network: adNetwork,
                                        ad_format: .Rewarded_Video,
                                        sub_ad_format: .rewarded_inter,
-                                       error_code: "",
-                                       message: "",
+                                       error_code: String(error.code),
+                                       message: error.localizedDescription,
                                        time: "",
                                        priority: priority,
                                        recall_ad: .no)

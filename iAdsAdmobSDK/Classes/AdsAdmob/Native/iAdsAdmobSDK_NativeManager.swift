@@ -31,7 +31,7 @@ public class iAdsAdmobSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
     private var adsId: String = ""
     
     private var nativeAd: GADNativeAd? = nil
-    private var dateStartLoad: Date = Date()
+    private var dateStartLoad: Double = Date().timeIntervalSince1970
     
     public static
     func make() -> iAdsCoreSDK_NativeProtocol {
@@ -46,7 +46,7 @@ public class iAdsAdmobSDK_NativeManager: NSObject, iAdsCoreSDK_NativeProtocol {
             completion(.failure(iAdsAdmobSDK_Error.adsIdIsLoading))
             return
         }
-        self.dateStartLoad = Date()
+        self.dateStartLoad = Date().timeIntervalSince1970
         self.completionLoad = completion
         self.isLoading = true
         self.adsId = adsId
@@ -111,7 +111,7 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        sub_ad_format: .native,
                                        error_code: "",
                                        message: "",
-                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
+                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
@@ -145,9 +145,9 @@ extension iAdsAdmobSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDele
                                        ad_network: adNetwork,
                                        ad_format: .Native,
                                        sub_ad_format: .native,
-                                       error_code: "",
+                                       error_code: String(error.code),
                                        message: error.localizedDescription,
-                                       time: "\(Date().timeIntervalSince1970 - dateStartLoad.timeIntervalSince1970)",
+                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))

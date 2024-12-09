@@ -60,8 +60,8 @@ public class iAdsAdmobSDK_RewardedManager: NSObject, iAdsCoreSDK_RewardedProtoco
                                                ad_network: self?.adNetwork ?? "",
                                                ad_format: .Rewarded_Video,
                                                sub_ad_format: .rewarded_inter,
-                                               error_code: "",
-                                               message: "",
+                                               error_code: String(error.code),
+                                               message: error.localizedDescription,
                                                time: "",
                                                priority: "",
                                                recall_ad: .no)
@@ -173,8 +173,8 @@ extension iAdsAdmobSDK_RewardedManager: GADFullScreenContentDelegate {
                                        ad_network: adNetwork,
                                        ad_format: .Rewarded_Video,
                                        sub_ad_format: .rewarded_inter,
-                                       error_code: "",
-                                       message: "",
+                                       error_code: String(error.code),
+                                       message: error.localizedDescription,
                                        time: "",
                                        priority: priority,
                                        recall_ad: .no)
