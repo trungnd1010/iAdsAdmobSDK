@@ -114,7 +114,7 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                        sub_ad_format: .native,
                                        error_code: "",
                                        message: "",
-                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
+                                       time: iComponentsSDK_Date.getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
@@ -148,9 +148,9 @@ extension iAdsGamSDK_NativeManager: GADAdLoaderDelegate, GADNativeAdLoaderDelega
                                        ad_network: adNetwork,
                                        ad_format: .Native,
                                        sub_ad_format: .native,
-                                       error_code: String(error.code),
+                                       error_code: "\((error as NSError).code)",
                                        message: error.localizedDescription,
-                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
+                                       time: iComponentsSDK_Date.getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))

@@ -128,7 +128,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: "",
-                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
+                                       time: iComponentsSDK_Date.getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         isHasAds = true
@@ -165,7 +165,7 @@ extension iAdsAdmobSDK_BannerManager: GADBannerViewDelegate  {
                                        sub_ad_format: sub_ad_format,
                                        error_code: "",
                                        message: error.localizedDescription,
-                                       time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self.dateStartLoad),
+                                       time: iComponentsSDK_Date.getElapsedTime(startTime: self.dateStartLoad),
                                        priority: "",
                                        recall_ad: .no)
         completionLoad?(.failure(error))

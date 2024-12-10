@@ -61,9 +61,9 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
                                                ad_network: self?.adNetwork ?? "",
                                                ad_format: .Interstitial,
                                                sub_ad_format: .inter,
-                                               error_code: String(error.code),
+                                               error_code: "\((error as NSError).code)",
                                                message: error.localizedDescription,
-                                               time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
+                                               time: iComponentsSDK_Date.getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -83,7 +83,7 @@ public class iAdsAdmobSDK_InterManager: NSObject, iAdsCoreSDK_IntertitialProtoco
                                            sub_ad_format: .inter,
                                            error_code: "",
                                            message: "",
-                                           time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
+                                           time: iComponentsSDK_Date.getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                            priority: "",
                                            recall_ad: .no)
             
@@ -171,7 +171,7 @@ extension iAdsAdmobSDK_InterManager: GADFullScreenContentDelegate {
                                        ad_network: adNetwork,
                                        ad_format: .Interstitial,
                                        sub_ad_format: .inter,
-                                       error_code: String(error.code),
+                                       error_code: "\((error as NSError).code)",
                                        message: error.localizedDescription,
                                        time: "",
                                        priority: priority,

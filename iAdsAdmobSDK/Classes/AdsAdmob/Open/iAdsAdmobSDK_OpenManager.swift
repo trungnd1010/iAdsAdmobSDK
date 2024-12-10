@@ -60,9 +60,9 @@ public class iAdsAdmobSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                                ad_network: self?.adNetwork ?? "",
                                                ad_format: .Open_Ad,
                                                sub_ad_format: .open,
-                                               error_code: String(error.code),
+                                               error_code: "\((error as NSError).code)",
                                                message: error.localizedDescription,
-                                               time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
+                                               time: iComponentsSDK_Date.getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -82,7 +82,7 @@ public class iAdsAdmobSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                            sub_ad_format: .open,
                                            error_code: "",
                                            message: "",
-                                           time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
+                                           time: iComponentsSDK_Date.getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                            priority: "",
                                            recall_ad: .no)
             

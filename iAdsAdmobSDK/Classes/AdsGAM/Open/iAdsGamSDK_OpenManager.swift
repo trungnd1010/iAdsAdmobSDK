@@ -62,7 +62,7 @@ public class iAdsGamSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                                sub_ad_format: .open,
                                                error_code: "",
                                                message: "",
-                                               time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
+                                               time: iComponentsSDK_Date.getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                                priority: "",
                                                recall_ad: .no)
                 
@@ -82,7 +82,7 @@ public class iAdsGamSDK_OpenManager: NSObject, iAdsCoreSDK_OpenProtocol {
                                            sub_ad_format: .open,
                                            error_code: "",
                                            message: "",
-                                           time: iAdsCoreSDK_AdTrack().getElapsedTime(startTime: self?.dateStartLoad ?? 0),
+                                           time: iComponentsSDK_Date.getElapsedTime(startTime: self?.dateStartLoad ?? 0),
                                            priority: "",
                                            recall_ad: .no)
             
@@ -170,7 +170,7 @@ extension iAdsGamSDK_OpenManager: GADFullScreenContentDelegate {
                                        ad_network: adNetwork,
                                        ad_format: .Open_Ad,
                                        sub_ad_format: .open,
-                                       error_code: String(error.code),
+                                       error_code: "\((error as NSError).code)",
                                        message: error.localizedDescription,
                                        time: "",
                                        priority: priority,
